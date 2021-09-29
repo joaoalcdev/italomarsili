@@ -21,9 +21,6 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]
       },
-      fontFamily: {
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans]
-      },
     }
   },
   variants: {

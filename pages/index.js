@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="bg-[#181818] font-sans">
+    <div className="bg-[#181818] bg-color font-sans">
       <Head>
         {/* Title */}
         <title>Italo Marsili - Site Oficial </title>
@@ -230,14 +230,13 @@ export default function Home() {
       <div className="">
         <header
           class=" bg-cover"
-          styleJsx="background-image: url('https://ik.imagekit.io/q5edmtudmz/peter-lloyd-680526-unsplash_TYZn4kayG.jpg');"
+          styleJsx="background-image: url('');"
         >
           <div class="content px-8 py-2">
             <div class="body mt-20 mx-8">
               <div class="md:flex items-center justify-between">
                 <div
                   class="w-full"
-                  styleJsx="text-shadow: 0 20px 50px hsla(0,0%,0%,8);"
                 >
                   <h1 class="text-4xl font-bold text-white tracking-wide">
                     Lorem

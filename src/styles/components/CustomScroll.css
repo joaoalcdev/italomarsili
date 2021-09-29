@@ -1,11 +1,9 @@
 ::-webkit-scrollbar-track {
-  border: 1px solid #181818;
-  background-color: #1e1e1e;
+  background-color: #222222;
 }
 ::-webkit-scrollbar {
-  width: 8px;
-  background-color: #181818;
+  width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #ee2860;
+  background-color: #333333;
 }
