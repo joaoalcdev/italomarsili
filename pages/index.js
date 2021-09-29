@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex-col min-h-screen bg-[#181818]">
+    <div className="flex-col min-h-screen bg-[#181818] font-sans">
       <Head>
         {/* Title */}
         <title>Italo Marsili - Site Oficial </title>

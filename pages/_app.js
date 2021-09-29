@@ -1,5 +1,5 @@
 import 'tailwindcss/tailwind.css'
-import '/src/styles/fonts.css'
+// import '/src/styles/nameArchive.css'
 
 
 function MyApp({ Component, pageProps }) {
