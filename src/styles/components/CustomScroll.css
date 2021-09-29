@@ -1,0 +1,11 @@
+::-webkit-scrollbar-track {
+  border: 1px solid #181818;
+  background-color: #1e1e1e;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #181818;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ee2860;
+}

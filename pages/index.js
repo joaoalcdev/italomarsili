@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex-col min-h-screen bg-[#181818] font-sans">
+    <div className="bg-[#181818] font-sans">
       <Head>
         {/* Title */}
         <title>Italo Marsili - Site Oficial </title>
@@ -240,20 +240,14 @@ export default function Home() {
                   styleJsx="text-shadow: 0 20px 50px hsla(0,0%,0%,8);"
                 >
                   <h1 class="text-4xl font-bold text-white tracking-wide">
-                    Brand
+                    Lorem
                   </h1>
                   <h2 class="text-2xl font-bold text-white tracking-wide">
-                    Welcome <span class="text-gray-800"> Aboard</span>
+                    Lorem <span class="text-gray-800"> Lorem</span>
                   </h2>
                   <p class="text-gray-300">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
-                  <span class="text-white">
-                    Create New Account?
-                    <a href="#" class="text-gray-900 text-lg ml-2 font-bold">
-                      Sign Up
-                    </a>
-                  </span>
                 </div>
                 <div class="w-full md:max-w-md mt-6"></div>
               </div>
@@ -274,9 +268,9 @@ export default function Home() {
         justify-items-center
         px-8
         py-4
-        lg:pb-[11rem]
-        md:pb-[9rem]
-        sm:pb-[5rem]
+        lg:pb-[6rem]
+        md:pb-[5rem]
+        sm:pb-[4rem]
         pb-[1.75rem]
         "
       >
@@ -357,7 +351,7 @@ export default function Home() {
       <footer class="footer-1 py-8 bottom-0 justify-center w-full">
         <div class="flex-wrap container mx-auto px-4">
           {/* img logo */}
-          {/* <div
+          <div
             className="
           justify-center
           text-center
@@ -370,13 +364,13 @@ export default function Home() {
           md:pb-10
           sm:pb-10
           pb-6
-          lg:w-[22rem]
+          lg:w-[14rem]
           md:w-[14rem]
           sm:w-[12.5rem]
           w-[10rem]"
           >
-            <img src="logo-WRL.svg" alt="Italo Marsili - Logo"></img>
-          </div> */}
+            <img src="logo-WRL.png" alt="Italo Marsili - Logo"></img>
+          </div>
 
           <div
             className="
