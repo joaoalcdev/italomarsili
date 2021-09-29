@@ -369,7 +369,7 @@ export default function Home() {
           sm:w-[12.5rem]
           w-[10rem]"
           >
-            <img src="../public/logo-wrl.png" alt="Italo Marsili - Logo"></img>
+            <img src="logo-wrl.png" alt="Italo Marsili - Logo"></img>
           </div>
 
           <div
