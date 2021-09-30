@@ -365,12 +365,9 @@ export default function Home() {
               >
                 Conheça nossos cursos:
               </h3>
-              {/* card slider */}
-
-              {/* card slider */}
             </div>
-            {/* card slider - here */}
-            <div
+
+            {/* <div
               class="
               flex
               flex-col  
@@ -425,10 +422,9 @@ export default function Home() {
               >
                 Conheça nossos cursos:
               </h3>
-              {/* card slider */}
 
-              {/* card slider */}
-            </div>
+            </div> */}
+
           </div>
         </div>
       </div>
