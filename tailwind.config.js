@@ -28,8 +28,6 @@ module.exports = {
       },
       backgroundImage: theme => ({
         italo: "url('/italomarsili.png')"
-        // 'hero-pattern': "url('https://github.com/joaoalcdev/italomarsili/blob/main/images/italomarsili.png?raw=true')",
-        // 'footer-texture': "url('/img/footer-texture.png')",
       })
     }
   },

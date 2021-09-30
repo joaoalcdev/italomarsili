@@ -281,21 +281,25 @@ export default function Home() {
             self-center
             text-left
 
+            mt-20
             pt-0
             px-4
             justify-end
             items-end
 
+            sm:mt-0
             sm:pt-0
             sm:pr-20
             sm:justify-end
             sm:items-end
 
+            md:mt-0
             md:pt-0
             md:pr-30
             md:justify-end
             md:items-end	
 
+            lg:mt-0
             lg:pt-0
             lg:pr-30
             lg:justify-end
@@ -427,10 +431,10 @@ export default function Home() {
             select-none
             outline-none
 
-            lg:px-[0.90rem]
-            md:px-[0.85rem]
-            sm:px-[0.80rem]
-            px-[0.75rem]
+            lg:px-[1.4rem]
+            md:px-[1.2rem]
+            sm:px-[1.2rem]
+            px-[1rem]
 
             lg:py-[0.85rem]
             md:py-[0.80rem]
