@@ -9,6 +9,9 @@ module.exports = {
       backgroundPosition: {
         custom: 'center right -37rem',
         'right-bottom': 'right bottom',
+        'right-top': 'right top',
+        customxs: 'center right -40rem',
+        'right-bottom': 'right bottom',
         'right-top': 'right top'
       },
       boxShadow: {
@@ -28,7 +31,10 @@ module.exports = {
       },
       backgroundImage: theme => ({
         italo: "url('/italomarsili.png')"
-      })
+      }),
+      screens: {
+        'mobilexs': {'max': '560px'},
+      }
     }
   },
   variants: {

@@ -224,7 +224,11 @@ export default function Home() {
         bg-no-repeat
         bg-cover
         bg-custom
-
+        
+        mobilexs:bg-no-repeat
+        mobilexs:bg-cover
+        mobilexs:bg-customxs
+        
         sm:bg-no-repeat
         sm:bg-cover
         sm:bg-center
@@ -259,6 +263,8 @@ export default function Home() {
           class="
           min-h-screen 
 
+          mobilexs:flex
+          mobilexs:flex-row
           sm:flex 
           sm:flex-row 
           md:flex 
@@ -283,7 +289,13 @@ export default function Home() {
             self-center
             text-left
 
-            mt-20
+            mobilexs:mt-24
+            mobilexs:pt-0
+            mobilexs:pr-20
+            mobilexs:justify-end
+            mobilexs:items-end
+
+            mt-40
             pt-0
             px-4
             justify-end
@@ -323,7 +335,8 @@ export default function Home() {
                 mb-3 
                 font-bold 
 
-                text-4xl 
+                text-4xl
+                mobilexs:text-5xl
                 sm:text-5xl 
                 md:text-6xl 
                 lg:text-7xl 
@@ -339,6 +352,7 @@ export default function Home() {
                 font-normal
 
                 text-[0.765rem]
+                mobilexs:text-[0.774rem]
                 sm:text-lg 
                 md:text-lg 
                 lg:text-xl
@@ -358,6 +372,7 @@ export default function Home() {
                 font-bold
                 
                 text-lg
+                mobilexs:text-lg
                 sm:text-lg 
                 md:text-lg 
                 lg:text-xl
@@ -424,7 +439,6 @@ export default function Home() {
               </h3>
 
             </div> */}
-
           </div>
         </div>
       </div>
@@ -441,10 +455,11 @@ export default function Home() {
         justify-items-center
         px-8
         py-4
-        lg:pb-[6rem]
-        md:pb-[5rem]
-        sm:pb-[4rem]
         pb-[1.75rem]
+        mobilexs:pb-[1.4rem]
+        sm:pb-[4rem]
+        md:pb-[5rem]
+        lg:pb-[6rem]
         "
       >
         <h4
@@ -456,6 +471,7 @@ export default function Home() {
           lg:text-lg
           md:text-[1.125rem]
           sm:text-[1rem]
+          mobilexs:text-[1.125rem]
           text-md
           lg:font-light
           md:font-light
@@ -466,11 +482,13 @@ export default function Home() {
           lg:pb-5
           md:pb-4
           sm:pb-4
+          mobilexs:pb-4
           pb-4
 
           lg:pt-15
           md:pt-12
           sm:pt-12
+          mobilexs:pt-12
           pt-10
           "
         >
@@ -492,16 +510,19 @@ export default function Home() {
             lg:px-[1.4rem]
             md:px-[1.2rem]
             sm:px-[1.2rem]
+            mobilexs:px-[1.1rem]
             px-[1rem]
 
             lg:py-[0.85rem]
             md:py-[0.80rem]
             sm:py-[0.78rem]
+            mobilexs:py-[0.76rem]
             py-[0.75rem]
 
             lg:mb-2
             md:mb-5
             sm:mb-2
+            mobilexs:mb-10
             mb-20
 
             lg:text-lg
@@ -531,10 +552,12 @@ export default function Home() {
           lg:pb-10
           md:pb-10
           sm:pb-10
+          mobilexs:pb-6
           pb-6
           lg:w-[14rem]
           md:w-[14rem]
           sm:w-[12.5rem]
+          mobilexs:w-[10rem]
           w-[10rem]
           "
           >
@@ -546,6 +569,7 @@ export default function Home() {
             lg:space-x-10
             md:space-x-8
             sm:space-x-6
+            mobilexs:space-x-5
             space-x-5
 
             w-full
@@ -561,6 +585,7 @@ export default function Home() {
               lg:w-[1.815rem]
               md:text-[1.75rem]
               sm:text-2xl
+              mobilexs:text-2xl
               text-2xl
               text-white
               hover:text-[#EE2860]
@@ -576,6 +601,7 @@ export default function Home() {
               lg:w-[1.815rem]
               md:text-[1.75rem]
               sm:text-2xl
+              mobilexs:text-2xl
               text-2xl
               text-white
               hover:text-[#EE2860]
@@ -591,6 +617,7 @@ export default function Home() {
               lg:w-[1.815rem]
               md:text-[1.75rem]
               sm:text-2xl
+              mobilexs:text-2xl
               text-2xl
               text-white
               hover:text-[#EE2860]
@@ -606,6 +633,7 @@ export default function Home() {
               lg:w-[1.815rem]
               md:text-[1.75rem]
               sm:text-2xl
+              mobilexs:text-2xl
               text-2xl
               text-white
               hover:text-[#EE2860]
@@ -621,6 +649,7 @@ export default function Home() {
               :w-[1.815rem]
                 md:text-[1.75rem]
                 sm:text-2xl
+                mobilexs:text-2xl
                 text-2xl
                 text-white
                 hover:text-[#EE2860]
@@ -653,6 +682,7 @@ export default function Home() {
               lg:text-lg
               md:text-md
               sm:text-base
+              mobilexs:text-base
               text-base
 
               text-center
@@ -712,6 +742,7 @@ export default function Home() {
                 lg:text-[0.9rem]
                 md:text-[0.84rem]
                 sm:text-[0.89rem]
+                mobilexs-[0.70rem]
                 text-[0.68rem]
 
                 space-x-8
