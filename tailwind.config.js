@@ -10,7 +10,7 @@ module.exports = {
         custom: 'center left -30rem',
         'right-bottom': 'right bottom',
         'right-top': 'right top',
-        customxs: 'center left -16rem',
+        customxs: 'center left -15rem',
         'right-bottom': 'right bottom',
         'right-top': 'right top'
       },
