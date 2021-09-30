@@ -289,7 +289,7 @@ export default function Home() {
             self-center
             text-left
 
-            mobilexs:mt-30
+            mobilexs:mt-28
             mobilexs:pt-0
             mobilexs:pr-20
             mobilexs:justify-end
@@ -353,7 +353,7 @@ export default function Home() {
                 font-normal
 
                 text-[0.765rem]
-                mobilexs:text-[0.7rem]
+                mobilexs:text-[0.6rem]
                 sm:text-lg 
                 md:text-lg 
                 lg:text-xl
