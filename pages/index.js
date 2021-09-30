@@ -210,141 +210,161 @@ export default function Home() {
         {/*  Manifest  */}
         <link rel="manifest" href="./docs/site.webmanifest"></link>
         {/* CSS imports  */}
-        <link href="/" rel="stylesheet"></link>
         <link
           rel="stylesheet"
           href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
         ></link>
-        <link
-          rel="stylesheet"
-          href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css"
-        ></link>
-        <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js" />
       </Head>
 
-      {/* Initial Section */}
-      <div class="bg-no-repeat bg-cover bg-center relative bg-hero-pattern">
-        <div class="absolute bg-gradient-to-b from-[#181818] to-[#222222] opacity-75 inset-0 z-0"></div>
+      {/* teste */}
 
-        <div class="min-h-screen sm:flex sm:flex-row mx-0 justify-center">
-          <div class="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
-            <div class="self-start hidden lg:flex flex-col  text-white">
-              <img src="" class="mb-3" />
-              <h1 class="mb-3 font-bold text-5xl">Hi 👋 Welcome Back Aji </h1>
-              <p class="pr-3">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups
+      {/* Initial Section */}
+      <div
+        class="
+        bg-no-repeat
+        bg-cover
+        bg-left-top
+
+        sm:bg-no-repeat
+        sm:bg-cover
+        sm:bg-center
+
+        md:bg-no-repeat
+        md:bg-cover
+        md:bg-center
+
+        lg:bg-no-repeat
+        lg:bg-cover
+        lg:bg-center
+
+        bg-italo
+        relative
+        "
+      >
+        <div
+          class="
+          absolute 
+          bg-gradient-to-b 
+          from-[#181818] 
+          to-[#222222] 
+          opacity-50 
+          inset-0 
+          z-0
+          "
+        ></div>
+
+        <div
+          class="
+          min-h-screen 
+
+          sm:flex 
+          sm:flex-row 
+          md:flex 
+          md:flex-row 
+          lg:flex 
+          lg:flex-row 
+          flex 
+          flex-row
+
+          justify-end
+          self-auto
+          w-full
+
+          mx-0
+          "
+        >
+          <div
+            class="
+            w-full
+            flex
+            flex-col
+            self-center
+
+            pt-40
+            pr-8
+            justify-end
+            items-end
+            
+            sm:pt-0
+            sm:pr-20
+            sm:justify-end
+            sm:items-end
+
+            md:pt-0
+            md:pr-30
+            md:justify-end
+            md:items-end	
+
+            lg:pt-0
+            lg:pr-30
+            lg:justify-end
+            lg:items-end
+
+            z-10
+            "
+          >
+            <div
+              class="
+              flex
+              flex-col  
+              self-auto
+              text-white
+              "
+            >
+              <h1
+                class="
+                mb-3 
+                font-bold 
+
+                text-4xl 
+                sm:text-5xl 
+                md:text-6xl 
+                lg:text-7xl 
+
+                text-[#EE2860]
+                "
+              >
+                Italo Marsili{' '}
+              </h1>
+              <p
+                class="
+                mb-6
+                font-normal
+
+                text-base
+                sm:text-lg 
+                md:text-lg 
+                lg:text-xl
+                "
+              >
+                Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
+                <br></br>
+                desenvolvimento e amadurecimento pessoal da América <br></br>
+                Latina, e autor do livro best-seller “Os 4 Temperamentos na{' '}
+                <br></br>
+                Educação dos Filhos”.
               </p>
+              <h3
+                className="
+                mb-3
+                text-[#EE2860]
+                font-bold
+                
+                text-lg
+                sm:text-lg 
+                md:text-lg 
+                lg:text-xl
+                "
+              >
+                Conheça nossos cursos:
+              </h3>
+              {/* card slider */}
+
+              {/* card slider */}
             </div>
           </div>
-          {/* <div class="flex justify-center self-center  z-10">
-            <div class="p-12 bg-white mx-auto rounded-2xl w-100 ">
-              <div class="mb-4">
-                <h3 class="font-semibold text-2xl text-gray-800">Sign In </h3>
-                <p class="text-gray-500">Please sign in to your account.</p>
-              </div>
-              <div class="space-y-5">
-                <div class="space-y-2">
-                  <label class="text-sm font-medium text-gray-700 tracking-wide">
-                    Email
-                  </label>
-                  <input
-                    class=" w-full text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-green-400"
-                    type=""
-                    placeholder="mail@gmail.com"
-                  ></input>
-                </div>
-                <div class="space-y-2">
-                  <label class="mb-5 text-sm font-medium text-gray-700 tracking-wide">
-                    Password
-                  </label>
-                  <input
-                    class="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-green-400"
-                    type=""
-                    placeholder="Enter your password"
-                  ></input>
-                </div>
-                <div class="flex items-center justify-between">
-                  <div class="flex items-center">
-                    <input
-                      id="remember_me"
-                      name="remember_me"
-                      type="checkbox"
-                      class="h-4 w-4 bg-blue-500 focus:ring-blue-400 border-gray-300 rounded"
-                    ></input>
-                    <label
-                      for="remember_me"
-                      class="ml-2 block text-sm text-gray-800"
-                    >
-                      Remember me
-                    </label>
-                  </div>
-                  <div class="text-sm">
-                    <a href="#" class="text-green-400 hover:text-green-500">
-                      Forgot your password?
-                    </a>
-                  </div>
-                </div>
-                <div>
-                  <button
-                    type="submit"
-                    class="w-full flex justify-center bg-green-400  hover:bg-green-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-                  >
-                    Sign in
-                  </button>
-                </div>
-              </div>
-              <div class="pt-5 text-center text-gray-400 text-xs">
-                <span>
-                  Copyright © 2021-2022
-                  <a
-                    href="https://codepen.io/uidesignhub"
-                    rel=""
-                    target="_blank"
-                    title="Ajimon"
-                    class="text-green hover:text-green-500 "
-                  >
-                    AJI
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
-
-      {/* <div className="">
-        <header
-          class=" bg-cover"
-          styleJsx="background-image: url('');"
-        >
-          <div class="content px-8 py-2">
-            <div class="body mt-20 mx-8">
-              <div class="md:flex items-center justify-between">
-                <div
-                  class="w-full"
-                >
-                  <h1 class="text-4xl font-bold text-white tracking-wide">
-                    Lorem
-                  </h1>
-                  <h2 class="text-2xl font-bold text-white tracking-wide">
-                    Lorem <span class="text-gray-800"> Lorem</span>
-                  </h2>
-                  <p class="text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-                <div class="w-full md:max-w-md mt-6"></div>
-              </div>
-            </div>
-          </div>
-        </header>
-      </div> */}
 
       {/* CTA Button - Whatsapp */}
       <div
@@ -366,14 +386,14 @@ export default function Home() {
       >
         <h4
           className="
-          w-full
           flex 
+          w-full
           justify-center 
 
-          lg:text-md
-          md:text-base
-          sm:text-sm
-          text-sm
+          lg:text-lg
+          md:text-[1.125rem]
+          sm:text-[1rem]
+          text-md
           lg:font-light
           md:font-light
           sm:font-light
@@ -383,7 +403,12 @@ export default function Home() {
           lg:pb-5
           md:pb-4
           sm:pb-4
-          py-4
+          pb-4
+
+          lg:pt-15
+          md:pt-12
+          sm:pt-12
+          pt-10
           "
         >
           Alguma dúvida?
@@ -398,6 +423,8 @@ export default function Home() {
             hover:shadow-green
             transition duration-[385ms] ease-in-out
             rounded-[0.65rem]
+            select-none
+            outline-none
 
             lg:px-[0.90rem]
             md:px-[0.85rem]
@@ -423,18 +450,6 @@ export default function Home() {
             "
         >
           FALE COM UM DE NOSSOS CONSULTORES
-          {/* <p
-            className="
-            lg:text-lg
-            md:text-md
-            sm:text-base
-            text-sm
-            font-bold
-            text-white 
-            px-2"
-          >
-            FALE COM UM DE NOSSOS CONSULTORES
-          </p> */}
         </a>
       </div>
 
@@ -461,7 +476,6 @@ export default function Home() {
           >
             <img src="logo-wrl.png" alt="Italo Marsili - Logo"></img>
           </div>
-
           <div
             className="
             flex
@@ -487,15 +501,10 @@ export default function Home() {
               text-white
               hover:text-[#EE2860]
               transition duration-475 ease-in-out
+              outline-none
               "
             >
               <i class="uil uil-instagram"></i>
-              {/* <img
-                src="instagram.svg"
-                alt="instagram"
-                className="
-              "
-              ></img> */}
             </a>
             <a
               href="#"
@@ -507,15 +516,10 @@ export default function Home() {
               text-white
               hover:text-[#EE2860]
               transition duration-475 ease-in-out
+              outline-none
               "
             >
               <i class="uil uil-facebook-f"></i>
-              {/* <img
-                src="facebook.svg"
-                alt="facebook"
-                className="
-              "
-              ></img> */}
             </a>
             <a
               href="#"
@@ -527,15 +531,10 @@ export default function Home() {
               text-white
               hover:text-[#EE2860]
               transition duration-475 ease-in-out
+              outline-none
               "
             >
               <i class="uil uil-twitter-alt"></i>
-              {/* <img
-                src="twitter.svg"
-                alt="twitter"
-                className="
-              "
-              ></img> */}
             </a>
             <a
               href="#"
@@ -547,15 +546,10 @@ export default function Home() {
               text-white
               hover:text-[#EE2860]
               transition duration-475 ease-in-out
+              outline-none
               "
             >
               <i class="uil uil-youtube"></i>
-              {/* <img
-                src="youtube.svg"
-                alt="youtube"
-                className="
-              "
-              ></img> */}
             </a>
             <a
               href="#"
@@ -567,15 +561,10 @@ export default function Home() {
                 text-white
                 hover:text-[#EE2860]
                 transition duration-475 ease-in-out
+                outline-none
                 "
             >
               <i class="uil uil-linkedin-alt"></i>
-              {/* <img
-                src="linkedin.svg"
-                alt="linkedin"
-                className="
-                "
-              ></img> */}
             </a>
           </div>
           <div
@@ -673,17 +662,17 @@ export default function Home() {
                 min-w-min
                 "
               >
-                <a href="" target="_blank" class="">
+                <a href="" target="_blank" class="outline-none">
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     Política de privacidade
                   </h6>
                 </a>
-                <a href="" target="_blank" class="">
+                <a href="" target="_blank" class="outline-none">
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     TERMOS LEGAIS
                   </h6>
                 </a>
-                <a href="" target="_blank" class="">
+                <a href="" target="_blank" class="outline-none">
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     Contato
                   </h6>

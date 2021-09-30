@@ -22,10 +22,10 @@ module.exports = {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: theme => ({
-        // 'hero-pattern': "url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&amp')",
-        'hero-pattern': "url('https://github.com/joaoalcdev/italomarsili/blob/main/images/italomarsili.png')",
+        italo: "url('/italomarsili.png')"
+        // 'hero-pattern': "url('https://github.com/joaoalcdev/italomarsili/blob/main/images/italomarsili.png?raw=true')",
         // 'footer-texture': "url('/img/footer-texture.png')",
-       })
+      })
     }
   },
   variants: {
