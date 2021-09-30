@@ -223,7 +223,7 @@ export default function Home() {
         class="
         bg-no-repeat
         bg-cover
-        bg-left-top
+        bg-center
 
         sm:bg-no-repeat
         sm:bg-cover
@@ -279,12 +279,13 @@ export default function Home() {
             flex
             flex-col
             self-center
+            text-left
 
-            pt-40
-            pr-8
+            pt-0
+            px-4
             justify-end
             items-end
-            
+
             sm:pt-0
             sm:pr-20
             sm:justify-end
@@ -331,7 +332,7 @@ export default function Home() {
                 mb-6
                 font-normal
 
-                text-base
+                text-[0.765rem]
                 sm:text-lg 
                 md:text-lg 
                 lg:text-xl
