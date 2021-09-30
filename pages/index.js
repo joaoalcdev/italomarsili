@@ -223,7 +223,7 @@ export default function Home() {
         class="
         bg-no-repeat
         bg-cover
-        bg-center
+        bg-custom
 
         sm:bg-no-repeat
         sm:bg-cover
