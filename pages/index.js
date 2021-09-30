@@ -243,11 +243,12 @@ export default function Home() {
       >
         <div
           class="
-          absolute 
+          absolute
+          bottom-1
           bg-gradient-to-b 
           from-[#181818] 
           to-[#222222] 
-          opacity-50 
+          opacity-0 
           inset-0 
           z-0
           "
@@ -308,6 +309,66 @@ export default function Home() {
             z-10
             "
           >
+            <div
+              class="
+              flex
+              flex-col  
+              self-auto
+              text-white
+              "
+            >
+              <h1
+                class="
+                mb-3 
+                font-bold 
+
+                text-4xl 
+                sm:text-5xl 
+                md:text-6xl 
+                lg:text-7xl 
+
+                text-[#EE2860]
+                "
+              >
+                Italo Marsili{' '}
+              </h1>
+              <p
+                class="
+                mb-6
+                font-normal
+
+                text-[0.765rem]
+                sm:text-lg 
+                md:text-lg 
+                lg:text-xl
+                "
+              >
+                Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
+                <br></br>
+                desenvolvimento e amadurecimento pessoal da América <br></br>
+                Latina, e autor do livro best-seller “Os 4 Temperamentos na{' '}
+                <br></br>
+                Educação dos Filhos”.
+              </p>
+              <h3
+                className="
+                mb-3
+                text-[#EE2860]
+                font-bold
+                
+                text-lg
+                sm:text-lg 
+                md:text-lg 
+                lg:text-xl
+                "
+              >
+                Conheça nossos cursos:
+              </h3>
+              {/* card slider */}
+
+              {/* card slider */}
+            </div>
+            {/* card slider - here */}
             <div
               class="
               flex
