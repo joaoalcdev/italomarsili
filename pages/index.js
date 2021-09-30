@@ -353,7 +353,7 @@ export default function Home() {
                 font-normal
 
                 text-[0.765rem]
-                mobilexs:text-[0.66rem]
+                mobilexs:text-[0.7rem]
                 sm:text-lg 
                 md:text-lg 
                 lg:text-xl
