@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundPosition: {
-        custom: 'center right -37rem',
+        custom: 'center right -30rem',
         'right-bottom': 'right bottom',
         'right-top': 'right top',
         customxs: 'center right -40rem',

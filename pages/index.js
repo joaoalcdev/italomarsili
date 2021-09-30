@@ -223,7 +223,7 @@ export default function Home() {
         class="
         bg-no-repeat
         bg-cover
-        bg-custom
+        bg-center
         
         mobilexs:bg-no-repeat
         mobilexs:bg-cover
@@ -348,11 +348,12 @@ export default function Home() {
               </h1>
               <p
                 class="
-                mb-6
+                w-full
+                mb-8
                 font-normal
 
                 text-[0.765rem]
-                mobilexs:text-[0.7rem]
+                mobilexs:text-[0.66rem]
                 sm:text-lg 
                 md:text-lg 
                 lg:text-xl
