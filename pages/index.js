@@ -251,6 +251,7 @@ export default function Home() {
           opacity-0 
           inset-0 
           z-0
+          select-none
           "
         ></div>
 
@@ -519,7 +520,7 @@ export default function Home() {
         </a>
       </div>
 
-      <footer class="footer-1 py-8 bottom-0 justify-center w-full">
+      <footer class="footer-1 py-8 bottom-0 justify-center w-full select-none">
         <div class="flex-wrap container mx-auto px-4">
           {/* img logo */}
           <div
@@ -538,7 +539,8 @@ export default function Home() {
           lg:w-[14rem]
           md:w-[14rem]
           sm:w-[12.5rem]
-          w-[10rem]"
+          w-[10rem]
+          "
           >
             <img src="logo-wrl.png" alt="Italo Marsili - Logo"></img>
           </div>
