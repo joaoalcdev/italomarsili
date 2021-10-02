@@ -261,7 +261,7 @@ export default function Home() {
           bg-gradient-to-b 
           from-[#181818] 
           to-[#222222] 
-          opacity-10 
+          opacity-[12%] 
           inset-0 
           z-0
           select-none
@@ -410,8 +410,8 @@ export default function Home() {
 
                   mobilexs:flex-col
                   mobilexs:flex-wrap
-                  mobilexs:w-[30rem]
-                  mobilexs:h-[14rem]
+                  mobilexs:w-[22rem]
+                  mobilexs:h-[12rem]
                   
                   w-[34rem]
                   h-[16rem]
@@ -466,9 +466,27 @@ export default function Home() {
                         <div
                           className="
                           flex-col
+                          bg-[#060606]
+                          w-full
+
+                          mobilexs:text-left
+                          text-left
+                          sm:text-left
+                          md:text-left
+                          lg:text-left
+
+                          mobilexs:px-[0.4rem]
                           px-4
+                          sm:px-4
+                          md:px-4
+                          lg:px-4
+                          
+                          mobilexs:pb-[0.7rem]
                           pb-4
-                          bg-[#040001]
+                          sm:pb-4
+                          md:pb-4
+                          lg:pb-4
+
                           rounded-b-[0.4rem]
                           "
                         >
@@ -480,7 +498,7 @@ export default function Home() {
                             pb-[0.1rem]
                             pt-2
 
-                            mobilexs:text-[0.701rem]
+                            mobilexs:text-[0.8rem]
                             text-[0.875rem]
                             sm:text-[0.9rem]
                             md:text-[1rem]
@@ -504,7 +522,7 @@ export default function Home() {
                               border-b-[1px]
                               border-[#EE2860]
 
-                              mobilexs:text-[0.62rem]
+                              mobilexs:text-[0.595rem]
                               text-[0.7rem]
                               sm:text-[0.7rem]
                               md:text-[0.75rem]
