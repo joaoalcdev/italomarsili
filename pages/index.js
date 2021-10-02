@@ -204,16 +204,13 @@ export default function Home() {
         <link
           rel="mask-icon"
           href="safari-pinned-tab.svg"
-          color="#EE2860"
+          color="#181818"
         ></link>
         <meta
           name="msapplication-TileImage"
           content="mstile-144x144.png"
         ></meta>
-        <meta
-          name="msapplication-config"
-          content="browserconfig.xml"
-        ></meta>
+        <meta name="msapplication-config" content="browserconfig.xml"></meta>
         {/*  Manifest  */}
         <link rel="manifest" href="site.webmanifest"></link>
         {/* CSS imports  */}
@@ -1029,9 +1026,10 @@ export default function Home() {
         justify-center 
         justify-items-center
         px-8
+        pt-8
         py-4
         pb-[1.75rem]
-        mobilexs:pb-[1.4rem]
+        mobilexs:pb-[4rem]
         sm:pb-[4rem]
         md:pb-[5rem]
         lg:pb-[6rem]
@@ -1043,11 +1041,11 @@ export default function Home() {
           w-full
           justify-center 
 
-          lg:text-lg
-          md:text-[1.125rem]
-          sm:text-[1rem]
-          mobilexs:text-[1.125rem]
-          text-md
+          lg:text-[1.3rem]
+          md:text-[1.25rem]
+          sm:text-[1.125rem]
+          text-[1.1rem]
+          mobilexs:text-[1rem]
           lg:font-light
           md:font-light
           sm:font-light
@@ -1060,11 +1058,11 @@ export default function Home() {
           mobilexs:pb-4
           pb-4
 
-          lg:pt-15
-          md:pt-12
-          sm:pt-12
-          mobilexs:pt-12
-          pt-10
+          lg:pt-32
+          md:pt-32
+          sm:pt-32
+          mobilexs:pt-28
+          pt-28
           "
         >
           Alguma dúvida?
@@ -1094,7 +1092,7 @@ export default function Home() {
             mobilexs:py-[0.76rem]
             py-[0.75rem]
 
-            lg:mb-2
+            lg:mb-4
             md:mb-5
             sm:mb-2
             mobilexs:mb-10
