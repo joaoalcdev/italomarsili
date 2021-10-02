@@ -19,3 +19,9 @@ h3::selection {
   background-color: white;
   color: #ee2860;
 }
+.SwiperCursor {
+  cursor: grab;
+}
+.SwiperCursor:active {
+  cursor: grabbing;
+}

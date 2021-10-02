@@ -7,7 +7,13 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css/bundle'
 import 'swiper/css'
 
+// import Swiper core and required modules
+import SwiperCore, { Keyboard, Pagination, Navigation } from 'swiper'
+
+// install Swiper modules
+
 export default function Home() {
+  SwiperCore.use([Keyboard, Navigation])
   return (
     <div className="bg-[#181818] font-sans">
       <Head>
@@ -343,6 +349,7 @@ export default function Home() {
               <h1
                 class="
                 mb-2
+                pl-2
                 font-bold 
 
                 mobilexs:text-4xl
@@ -366,6 +373,8 @@ export default function Home() {
                 sm:text-[0.9rem]
                 md:text-[1rem]
                 lg:text-[1rem]
+
+                pl-3
                 "
               >
                 Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
@@ -378,7 +387,7 @@ export default function Home() {
               <h3
                 className="
                 mt-4
-                mb-4
+                pl-3
                 text-[#EE2860]
                 font-bold
                 
@@ -396,11 +405,12 @@ export default function Home() {
                 <Swiper
                   slidesPerView={3.3}
                   spaceBetween={20}
-                  pagination={{
-                    clickable: true
+                  keyboard={{
+                    enabled: true
                   }}
                   className="
                   mySwiper
+                  SwiperCursor
 
                   flex
                   flex-col
@@ -432,6 +442,8 @@ export default function Home() {
                   <div className="flex">
                     <SwiperSlide
                       className="
+                      pt-4
+                      ml-4
                       "
                     >
                       <div
@@ -441,6 +453,9 @@ export default function Home() {
                         rounded-lg
                         select-none
                         outline-none
+
+                        hover:shadow-red
+                        hover:border-[#ff4076]
                         "
                       >
                         <div
@@ -456,6 +471,7 @@ export default function Home() {
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
+                              SwiperCursor
                               "
                             ></img>
                           </a>
@@ -526,6 +542,11 @@ export default function Home() {
                               sm:text-[0.7rem]
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
+
+                              hover:text-[#ff4076] 
+                              transition 
+                              duration-450 
+                              ease-in-out
                               "
                             >
                               Visitar página
@@ -540,6 +561,7 @@ export default function Home() {
                   <div className="flex">
                     <SwiperSlide
                       className="
+                      pt-4
                       "
                     >
                       <div
@@ -549,6 +571,9 @@ export default function Home() {
                         rounded-lg
                         select-none
                         outline-none
+
+                        hover:shadow-red
+                        hover:border-[#ff4076]
                         "
                       >
                         <div
@@ -564,6 +589,7 @@ export default function Home() {
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
+                              SwiperCursor
                               "
                             ></img>
                           </a>
@@ -601,9 +627,7 @@ export default function Home() {
                             text-white
                             font-bold
                             pb-[0.1rem]
-                            pt-2
-
-                            
+                            pt-2                            
 
                             mobilexs:text-[0.68rem]
                             text-[0.7rem]
@@ -634,6 +658,11 @@ export default function Home() {
                               sm:text-[0.7rem]
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
+
+                              hover:text-[#ff4076] 
+                              transition 
+                              duration-450 
+                              ease-in-out
                               "
                             >
                               Visitar página
@@ -648,6 +677,7 @@ export default function Home() {
                   <div className="flex">
                     <SwiperSlide
                       className="
+                      pt-4
                       "
                     >
                       <div
@@ -657,6 +687,9 @@ export default function Home() {
                         rounded-lg
                         select-none
                         outline-none
+
+                        hover:shadow-red
+                        hover:border-[#ff4076]
                         "
                       >
                         <div
@@ -672,6 +705,7 @@ export default function Home() {
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
+                              SwiperCursor
                               "
                             ></img>
                           </a>
@@ -743,6 +777,11 @@ export default function Home() {
                               sm:text-[0.7rem]
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
+
+                              hover:text-[#ff4076] 
+                              transition 
+                              duration-450 
+                              ease-in-out
                               "
                             >
                               Visitar página
@@ -757,6 +796,7 @@ export default function Home() {
                   <div className="flex">
                     <SwiperSlide
                       className="
+                      pt-4
                       "
                     >
                       <div
@@ -766,6 +806,9 @@ export default function Home() {
                         rounded-lg
                         select-none
                         outline-none
+
+                        hover:shadow-red
+                        hover:border-[#ff4076]
                         "
                       >
                         <div
@@ -781,6 +824,7 @@ export default function Home() {
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
+                              SwiperCursor
                               "
                             ></img>
                           </a>
@@ -870,6 +914,11 @@ export default function Home() {
                               sm:text-[0.7rem]
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
+
+                              hover:text-[#ff4076] 
+                              transition 
+                              duration-450 
+                              ease-in-out
                               "
                             >
                               Visitar página
@@ -884,6 +933,7 @@ export default function Home() {
                   <div className="flex">
                     <SwiperSlide
                       className="
+                      pt-4
                       "
                     >
                       <div
@@ -893,6 +943,9 @@ export default function Home() {
                         rounded-lg
                         select-none
                         outline-none
+
+                        hover:shadow-red
+                        hover:border-[#ff4076]
                         "
                       >
                         <div
@@ -908,6 +961,7 @@ export default function Home() {
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
+                              SwiperCursor
                               "
                             ></img>
                           </a>
@@ -997,6 +1051,11 @@ export default function Home() {
                               sm:text-[0.7rem]
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
+
+                              hover:text-[#ff4076] 
+                              transition 
+                              duration-450 
+                              ease-in-out
                               "
                             >
                               Visitar página
@@ -1007,6 +1066,14 @@ export default function Home() {
                     </SwiperSlide>
                   </div>
                   {/* swiper 05 (slider) */}
+                  {/* swiper 06 (slider) */}
+                  <div className="">
+                    <SwiperSlide
+                      className="
+                      "
+                    ></SwiperSlide>
+                  </div>
+                  {/* swiper 06 (slider) */}
                 </Swiper>
               </>
               {/* end carousel */}
