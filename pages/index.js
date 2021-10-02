@@ -342,7 +342,7 @@ export default function Home() {
             >
               <h1
                 class="
-                mb-3 
+                mb-2
                 font-bold 
 
                 mobilexs:text-4xl
@@ -377,8 +377,8 @@ export default function Home() {
               </p>
               <h3
                 className="
-                mt-6
-                mb-6
+                mt-4
+                mb-4
                 text-[#EE2860]
                 font-bold
                 
