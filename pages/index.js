@@ -1,5 +1,12 @@
 import Head from 'next/head'
 
+// eslint-disable-next-line
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+// Import Swiper styles
+import 'swiper/css/bundle'
+import 'swiper/css'
+
 export default function Home() {
   return (
     <div className="bg-[#181818] font-sans">
@@ -243,6 +250,8 @@ export default function Home() {
 
         bg-italo
         relative
+
+        min-h-screen
         "
       >
         <div
@@ -252,10 +261,12 @@ export default function Home() {
           bg-gradient-to-b 
           from-[#181818] 
           to-[#222222] 
-          opacity-0 
+          opacity-10 
           inset-0 
           z-0
           select-none
+
+          min-h-screen
           "
         ></div>
 
@@ -285,37 +296,39 @@ export default function Home() {
             class="
             w-full
             flex
-            flex-col
             self-center
             text-left
-
-            mobilexs:mt-28
-            mobilexs:pt-0
-            mobilexs:pr-20
+            
+            mobilexs:mt-0
+            mobilexs:pt-[13rem]
+            mobilexs:pr-[-32rem]
             mobilexs:justify-end
             mobilexs:items-end
+            
+            mt-0
+            pt-[11rem]
+            pr-0
+            pl-36
 
-            mt-40
-            pt-0
-            px-4
+            flex-nowrap
             justify-end
             items-end
 
             sm:mt-0
-            sm:pt-0
-            sm:pr-20
+            sm:pt-[10rem]
+            sm:pr-0
             sm:justify-end
             sm:items-end
 
             md:mt-0
-            md:pt-0
-            md:pr-30
+            md:pt-28
+            md:pr-0
             md:justify-end
             md:items-end	
 
             lg:mt-0
-            lg:pt-0
-            lg:pr-30
+            lg:pt-24
+            lg:pr-0
             lg:justify-end
             lg:items-end
 
@@ -335,11 +348,11 @@ export default function Home() {
                 mb-3 
                 font-bold 
 
-                text-4xl
                 mobilexs:text-4xl
-                sm:text-5xl 
-                md:text-6xl 
-                lg:text-7xl 
+                text-[2.8rem]
+                sm:text-[3rem] 
+                md:text-[3.6rem]
+                lg:text-[3.8rem]
 
                 text-[#EE2860]
                 "
@@ -349,14 +362,13 @@ export default function Home() {
               <p
                 class="
                 w-full
-                mb-8
                 font-normal
 
-                text-[0.765rem]
-                mobilexs:text-[0.61rem]
-                sm:text-lg 
-                md:text-lg 
-                lg:text-xl
+                mobilexs:text-[0.6rem]
+                text-[0.8rem]
+                sm:text-[0.9rem]
+                md:text-[1rem]
+                lg:text-[1rem]
                 "
               >
                 Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
@@ -368,7 +380,8 @@ export default function Home() {
               </p>
               <h3
                 className="
-                mb-3
+                mt-6
+                mb-6
                 text-[#EE2860]
                 font-bold
                 
@@ -381,65 +394,135 @@ export default function Home() {
               >
                 Conheça nossos cursos:
               </h3>
+              {/* init carousel */}
+              <>
+                <Swiper
+                  slidesPerView={3.5}
+                  spaceBetween={30}
+                  pagination={{
+                    clickable: true
+                  }}
+                  className="
+                  mySwiper
+
+                  flex
+                  flex-nowrap
+
+                  mobilexs:flex-col
+                  mobilexs:flex-wrap
+                  mobilexs:w-[30rem]
+                  mobilexs:h-[14rem]
+                  
+                  w-[34rem]
+                  h-[16rem]
+
+                  sm:flex-col
+                  sm:w-[36rem]
+                  sm:h-[16rem]
+
+                  md:flex-col
+                  md:w-[38rem]
+                  md:h-[16rem]
+
+                  lg:flex-col
+                  lg:w-[40rem]
+                  lg:h-[16rem]
+                  
+                  text-white
+                  "
+                >
+                  {/* swiper 01 (slider) */}
+                  <div className="flex">
+                    <SwiperSlide
+                      className="
+                      "
+                    >
+                      <div
+                        className="
+                        border-2
+                        border-[#EE2860]
+                        rounded-lg
+                        select-none
+                        outline-none
+                        "
+                      >
+                        <div
+                          className="
+                          bg-[#060102] 
+                          rounded-t-lg
+                          "
+                        >
+                          <a href="" className="outline-none">
+                            <img
+                              src="logo-guerrilhaway.png"
+                              className="
+                              rounded-t-[0.4rem] 
+                              w-full
+                              h-full
+                              "
+                            ></img>
+                          </a>
+                        </div>
+                        <div
+                          className="
+                          flex-col
+                          px-4
+                          pb-4
+                          bg-[#040001]
+                          rounded-b-[0.4rem]
+                          "
+                        >
+                          <h3
+                            className="
+                            flex
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            mobilexs:text-[0.701rem]
+                            text-[0.875rem]
+                            sm:text-[0.9rem]
+                            md:text-[1rem]
+                            lg:text-[1.1rem]
+                            "
+                          >
+                            Guerrilha Way
+                          </h3>
+                          <a
+                            href=""
+                            className="
+                            flex
+                            font-light 
+                            text-[#EE2860] 
+                            outline-none
+                            "
+                          >
+                            <p
+                              className="
+                              flex 
+                              border-b-[1px]
+                              border-[#EE2860]
+
+                              mobilexs:text-[0.62rem]
+                              text-[0.7rem]
+                              sm:text-[0.7rem]
+                              md:text-[0.75rem]
+                              lg:text-[0.8rem]
+                              "
+                            >
+                              Visitar página
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </div>
+                  {/* swiper 01 (slider) */}
+                </Swiper>
+              </>
+              {/* end carousel */}
             </div>
-
-            {/* <div
-              class="
-              flex
-              flex-col  
-              self-auto
-              text-white
-              "
-            >
-              <h1
-                class="
-                mb-3 
-                font-bold 
-
-                text-4xl 
-                sm:text-5xl 
-                md:text-6xl 
-                lg:text-7xl 
-
-                text-[#EE2860]
-                "
-              >
-                Italo Marsili{' '}
-              </h1>
-              <p
-                class="
-                mb-6
-                font-normal
-
-                text-[0.765rem]
-                sm:text-lg 
-                md:text-lg 
-                lg:text-xl
-                "
-              >
-                Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
-                <br></br>
-                desenvolvimento e amadurecimento pessoal da América <br></br>
-                Latina, e autor do livro best-seller “Os 4 Temperamentos na{' '}
-                <br></br>
-                Educação dos Filhos”.
-              </p>
-              <h3
-                className="
-                mb-3
-                text-[#EE2860]
-                font-bold
-                
-                text-lg
-                sm:text-lg 
-                md:text-lg 
-                lg:text-xl
-                "
-              >
-                Conheça nossos cursos:
-              </h3>
-
-            </div> */}
           </div>
         </div>
       </div>
