@@ -135,87 +135,87 @@ export default function Home() {
         <link
           rel="apple-touch-icon"
           sizes="57x57"
-          href="./assets/images/favicons/apple-touch-icon-57x57.png"
+          href="favicon-64x64.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="60x60"
-          href="./assets/images/favicons/apple-touch-icon-60x60.png"
+          href="apple-touch-icon-60x60.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="72x72"
-          href="./assets/images/favicons/apple-touch-icon-72x72.png"
+          href="apple-touch-icon-72x72.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="76x76"
-          href="./assets/images/favicons/apple-touch-icon-76x76.png"
+          href="apple-touch-icon-76x76.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="114x114"
-          href="./assets/images/favicons/apple-touch-icon-114x114.png"
+          href="apple-touch-icon-114x114.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="120x120"
-          href="./assets/images/favicons/apple-touch-icon-120x120.png"
+          href="apple-touch-icon-120x120.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="144x144"
-          href="./assets/images/favicons/apple-touch-icon-144x144.png"
+          href="apple-touch-icon-144x144.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="152x152"
-          href="./assets/images/favicons/apple-touch-icon-152x152.png"
+          href="apple-touch-icon-152x152.png"
         ></link>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="./assets/images/favicons/apple-touch-icon-180x180.png"
+          href="apple-touch-icon-180x180.png"
         ></link>
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="./assets/images/favicons/favicon-32x32.png"
+          href="favicon-32x32.png"
         ></link>
         <link
           rel="icon"
           type="image/png"
           sizes="194x194"
-          href="./assets/images/favicons/favicon-194x194.png"
+          href="favicon-194x194.png"
         ></link>
         <link
           rel="icon"
           type="image/png"
           sizes="192x192"
-          href="./assets/images/favicons/android-chrome-192x192.png"
+          href="android-chrome-192x192.png"
         ></link>
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="./assets/images/favicons/favicon-16x16.png"
+          href="favicon-16x16.png"
         ></link>
         <link
           rel="mask-icon"
-          href="./assets/images/favicons/safari-pinned-tab.svg"
+          href="safari-pinned-tab.svg"
           color="#EE2860"
         ></link>
         <meta
           name="msapplication-TileImage"
-          content="./assets/images/favicons/mstile-144x144.png"
+          content="mstile-144x144.png"
         ></meta>
         <meta
           name="msapplication-config"
-          content="./assets/images/favicons/browserconfig.xml"
+          content="browserconfig.xml"
         ></meta>
         {/*  Manifest  */}
-        <link rel="manifest" href="./docs/site.webmanifest"></link>
+        <link rel="manifest" href="site.webmanifest"></link>
         {/* CSS imports  */}
         <link
           rel="stylesheet"
@@ -398,7 +398,7 @@ export default function Home() {
               <>
                 <Swiper
                   slidesPerView={3.3}
-                  spaceBetween={30}
+                  spaceBetween={20}
                   pagination={{
                     clickable: true
                   }}
@@ -562,7 +562,7 @@ export default function Home() {
                         >
                           <a href="" className="outline-none">
                             <img
-                              src="logo-guerrilhaway.png"
+                              src="logo-menos50T.png"
                               className="
                               rounded-t-[0.4rem] 
                               w-full
@@ -723,7 +723,7 @@ export default function Home() {
                             lg:text-[0.9rem]
                             "
                           >
-                            O Eixo
+                            Eixo
                             <br className=""></br>
                           </h3>
                           <a
