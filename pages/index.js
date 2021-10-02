@@ -1112,6 +1112,7 @@ export default function Home() {
         </a>
       </div>
 
+      {/* init footer */}
       <footer class="footer-1 py-8 bottom-0 justify-center w-full select-none">
         <div class="flex-wrap container mx-auto px-4">
           {/* img logo */}
@@ -1352,6 +1353,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      {/* end footer */}
     </div>
   )
 }
