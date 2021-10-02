@@ -91,12 +91,12 @@ export default function Home() {
           content="https://italomarsili.com.br/"
         ></meta>
         {/*  Theme Color Global */}
-        <meta name="theme-color" content="#EE2860"></meta>
-        <meta name="msapplication-TileColor" content="#EE2860"></meta>
-        <meta name="msapplication-navbutton-color" content="#EE2860"></meta>
+        <meta name="theme-color" content="#181818"></meta>
+        <meta name="msapplication-TileColor" content="#181818"></meta>
+        <meta name="msapplication-navbutton-color" content="#181818"></meta>
         <meta
           name="apple-mobile-web-app-status-bar-style"
-          content="#EE2860"
+          content="#181818"
         ></meta>
         {/*  Share Image Size  */}
         <meta property="og:locale" content="pt_BR"></meta>
@@ -397,7 +397,7 @@ export default function Home() {
               {/* init carousel */}
               <>
                 <Swiper
-                  slidesPerView={3.5}
+                  slidesPerView={3.3}
                   spaceBetween={30}
                   pagination={{
                     clickable: true
@@ -406,12 +406,12 @@ export default function Home() {
                   mySwiper
 
                   flex
-                  flex-nowrap
+                  flex-col
 
                   mobilexs:flex-col
-                  mobilexs:flex-wrap
+
                   mobilexs:w-[22rem]
-                  mobilexs:h-[12rem]
+                  mobilexs:h-[16rem]
                   
                   w-[34rem]
                   h-[16rem]
@@ -421,11 +421,11 @@ export default function Home() {
                   sm:h-[16rem]
 
                   md:flex-col
-                  md:w-[38rem]
+                  md:w-[37rem]
                   md:h-[16rem]
 
                   lg:flex-col
-                  lg:w-[40rem]
+                  lg:w-[38rem]
                   lg:h-[16rem]
                   
                   text-white
@@ -479,7 +479,7 @@ export default function Home() {
                           px-4
                           sm:px-4
                           md:px-4
-                          lg:px-4
+                          lg:px-3
                           
                           mobilexs:pb-[0.7rem]
                           pb-4
@@ -498,11 +498,13 @@ export default function Home() {
                             pb-[0.1rem]
                             pt-2
 
-                            mobilexs:text-[0.8rem]
-                            text-[0.875rem]
-                            sm:text-[0.9rem]
-                            md:text-[1rem]
-                            lg:text-[1.1rem]
+                            
+
+                            mobilexs:text-[0.59rem]
+                            text-[0.7rem]
+                            sm:text-[0.76rem]
+                            md:text-[0.8rem]
+                            lg:text-[0.9rem]
                             "
                           >
                             Guerrilha Way
@@ -537,6 +539,477 @@ export default function Home() {
                     </SwiperSlide>
                   </div>
                   {/* swiper 01 (slider) */}
+                  {/* swiper 02 (slider) */}
+                  <div className="flex">
+                    <SwiperSlide
+                      className="
+                      "
+                    >
+                      <div
+                        className="
+                        border-2
+                        border-[#EE2860]
+                        rounded-lg
+                        select-none
+                        outline-none
+                        "
+                      >
+                        <div
+                          className="
+                          bg-[#060102] 
+                          rounded-t-lg
+                          "
+                        >
+                          <a href="" className="outline-none">
+                            <img
+                              src="logo-guerrilhaway.png"
+                              className="
+                              rounded-t-[0.4rem] 
+                              w-full
+                              h-full
+                              "
+                            ></img>
+                          </a>
+                        </div>
+                        <div
+                          className="
+                          flex-col
+                          bg-[#060606]
+                          w-full
+
+                          mobilexs:text-left
+                          text-left
+                          sm:text-left
+                          md:text-left
+                          lg:text-left
+
+                          mobilexs:px-[0.4rem]
+                          px-4
+                          sm:px-4
+                          md:px-4
+                          lg:px-3
+                          
+                          mobilexs:pb-[0.7rem]
+                          pb-4
+                          sm:pb-4
+                          md:pb-4
+                          lg:pb-4
+
+                          rounded-b-[0.4rem]
+                          "
+                        >
+                          <h3
+                            className="
+                            flex
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            
+
+                            mobilexs:text-[0.68rem]
+                            text-[0.7rem]
+                            sm:text-[0.76rem]
+                            md:text-[0.8rem]
+                            lg:text-[0.9rem]
+                            "
+                          >
+                            Menos 50T
+                          </h3>
+                          <a
+                            href=""
+                            className="
+                            flex
+                            font-light 
+                            text-[#EE2860] 
+                            outline-none
+                            "
+                          >
+                            <p
+                              className="
+                              flex 
+                              border-b-[1px]
+                              border-[#EE2860]
+
+                              mobilexs:text-[0.595rem]
+                              text-[0.7rem]
+                              sm:text-[0.7rem]
+                              md:text-[0.75rem]
+                              lg:text-[0.8rem]
+                              "
+                            >
+                              Visitar página
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </div>
+                  {/* swiper 02 (slider) */}
+                  {/* swiper 03 (slider) */}
+                  <div className="flex">
+                    <SwiperSlide
+                      className="
+                      "
+                    >
+                      <div
+                        className="
+                        border-2
+                        border-[#EE2860]
+                        rounded-lg
+                        select-none
+                        outline-none
+                        "
+                      >
+                        <div
+                          className="
+                          bg-[#060102] 
+                          rounded-t-lg
+                          "
+                        >
+                          <a href="" className="outline-none">
+                            <img
+                              src="logo-guerrilhaway.png"
+                              className="
+                              rounded-t-[0.4rem] 
+                              w-full
+                              h-full
+                              "
+                            ></img>
+                          </a>
+                        </div>
+                        <div
+                          className="
+                          flex-col
+                          bg-[#060606]
+                          w-full
+
+                          mobilexs:text-left
+                          text-left
+                          sm:text-left
+                          md:text-left
+                          lg:text-left
+
+                          mobilexs:px-[0.4rem]
+                          px-4
+                          sm:px-4
+                          md:px-4
+                          lg:px-3
+                          
+                          mobilexs:pb-[0.7rem]
+                          pb-4
+                          sm:pb-4
+                          md:pb-4
+                          lg:pb-4
+
+                          rounded-b-[0.4rem]
+                          "
+                        >
+                          <h3
+                            className="
+                            flex
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            
+
+                            mobilexs:text-[0.68rem]
+                            text-[0.7rem]
+                            sm:text-[0.76rem]
+                            md:text-[0.8rem]
+                            lg:text-[0.9rem]
+                            "
+                          >
+                            O Eixo
+                            <br className=""></br>
+                          </h3>
+                          <a
+                            href=""
+                            className="
+                            flex
+                            font-light 
+                            text-[#EE2860] 
+                            outline-none
+                            "
+                          >
+                            <p
+                              className="
+                              flex 
+                              border-b-[1px]
+                              border-[#EE2860]
+
+                              mobilexs:text-[0.595rem]
+                              text-[0.7rem]
+                              sm:text-[0.7rem]
+                              md:text-[0.75rem]
+                              lg:text-[0.8rem]
+                              "
+                            >
+                              Visitar página
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </div>
+                  {/* swiper 03 (slider) */}
+                  {/* swiper 04 (slider) */}
+                  <div className="flex">
+                    <SwiperSlide
+                      className="
+                      "
+                    >
+                      <div
+                        className="
+                        border-2
+                        border-[#EE2860]
+                        rounded-lg
+                        select-none
+                        outline-none
+                        "
+                      >
+                        <div
+                          className="
+                          bg-[#060102] 
+                          rounded-t-lg
+                          "
+                        >
+                          <a href="" className="outline-none">
+                            <img
+                              src="logo-guerrilhaway.png"
+                              className="
+                              rounded-t-[0.4rem] 
+                              w-full
+                              h-full
+                              "
+                            ></img>
+                          </a>
+                        </div>
+                        <div
+                          className="
+                          flex-col
+                          bg-[#060606]
+                          w-full
+
+                          mobilexs:text-left
+                          text-left
+                          sm:text-left
+                          md:text-left
+                          lg:text-left
+
+                          mobilexs:px-[0.4rem]
+                          px-4
+                          sm:px-4
+                          md:px-4
+                          lg:px-3
+                          
+                          mobilexs:pb-[0.7rem]
+                          pb-4
+                          sm:pb-4
+                          md:pb-4
+                          lg:pb-4
+
+                          rounded-b-[0.4rem]
+                          "
+                        >
+                          <h3
+                            className="
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            
+                            mobilexs:text-[0.68rem]
+                            tabletxs:flex
+                            tabletxs:text-[0.7rem]
+                            hidden
+                            sm:hidden
+                            md:hidden
+                            lg:hidden
+                            "
+                          >
+                            Os 4 Tem...
+                          </h3>
+                          <h3
+                            className="
+                            flex
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            
+                            mobilexs:hidden
+                            tabletxs:hidden
+                            text-[0.7rem]
+                            sm:text-[0.76rem]
+                            md:text-[0.8rem]
+                            lg:text-[0.9rem]
+                            "
+                          >
+                            Os 4 Tempera...
+                          </h3>
+                          <a
+                            href=""
+                            className="
+                            flex
+                            font-light 
+                            text-[#EE2860] 
+                            outline-none
+                            "
+                          >
+                            <p
+                              className="
+                              flex 
+                              border-b-[1px]
+                              border-[#EE2860]
+
+                              mobilexs:text-[0.595rem]
+                              text-[0.7rem]
+                              sm:text-[0.7rem]
+                              md:text-[0.75rem]
+                              lg:text-[0.8rem]
+                              "
+                            >
+                              Visitar página
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </div>
+                  {/* swiper 04 (slider) */}
+                  {/* swiper 05 (slider) */}
+                  <div className="flex">
+                    <SwiperSlide
+                      className="
+                      "
+                    >
+                      <div
+                        className="
+                        border-2
+                        border-[#EE2860]
+                        rounded-lg
+                        select-none
+                        outline-none
+                        "
+                      >
+                        <div
+                          className="
+                          bg-[#060102] 
+                          rounded-t-lg
+                          "
+                        >
+                          <a href="" className="outline-none">
+                            <img
+                              src="logo-guerrilhaway.png"
+                              className="
+                              rounded-t-[0.4rem] 
+                              w-full
+                              h-full
+                              "
+                            ></img>
+                          </a>
+                        </div>
+                        <div
+                          className="
+                          flex-col
+                          bg-[#060606]
+                          w-full
+
+                          mobilexs:text-left
+                          text-left
+                          sm:text-left
+                          md:text-left
+                          lg:text-left
+
+                          mobilexs:px-[0.4rem]
+                          px-4
+                          sm:px-4
+                          md:px-4
+                          lg:px-3
+                          
+                          mobilexs:pb-[0.7rem]
+                          pb-4
+                          sm:pb-4
+                          md:pb-4
+                          lg:pb-4
+
+                          rounded-b-[0.4rem]
+                          "
+                        >
+                          <h3
+                            className="
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            
+                            mobilexs:text-[0.68rem]
+                            tabletxs:flex
+                            tabletxs:text-[0.7rem]
+                            hidden
+                            sm:hidden
+                            md:hidden
+                            lg:hidden
+                            "
+                          >
+                            Território...
+                          </h3>
+                          <h3
+                            className="
+                            flex
+                            text-white
+                            font-bold
+                            pb-[0.1rem]
+                            pt-2
+
+                            
+                            mobilexs:hidden
+                            tabletxs:hidden
+                            text-[0.7rem]
+                            sm:text-[0.76rem]
+                            md:text-[0.8rem]
+                            lg:text-[0.9rem]
+                            "
+                          >
+                            Território Humano
+                          </h3>
+                          <a
+                            href=""
+                            className="
+                            flex
+                            font-light 
+                            text-[#EE2860] 
+                            outline-none
+                            "
+                          >
+                            <p
+                              className="
+                              flex 
+                              border-b-[1px]
+                              border-[#EE2860]
+
+                              mobilexs:text-[0.595rem]
+                              text-[0.7rem]
+                              sm:text-[0.7rem]
+                              md:text-[0.75rem]
+                              lg:text-[0.8rem]
+                              "
+                            >
+                              Visitar página
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </div>
+                  {/* swiper 05 (slider) */}
                 </Swiper>
               </>
               {/* end carousel */}

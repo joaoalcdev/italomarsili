@@ -33,7 +33,8 @@ module.exports = {
         italo: "url('/italomarsili.png')"
       }),
       screens: {
-        mobilexs: { max: '560px' }
+        mobilexs: { max: '560px' },
+        tabletxs: { max: '640px' },
       }
     }
   },
