@@ -1,0 +1,27 @@
+::-webkit-scrollbar-track {
+  background-color: #222222;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+}
+h1::selection {
+  background-color: #ee2860;
+  color: white;
+}
+h3::selection {
+  background-color: white;
+  color: #ee2860;
+}
+::selection {
+  background-color: white;
+  color: #ee2860;
+}
+.SwiperCursor {
+  cursor: grab;
+}
+.SwiperCursor:active {
+  cursor: grabbing;
+}

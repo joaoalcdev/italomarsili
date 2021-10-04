@@ -1,5 +1,9 @@
 import Head from 'next/head'
 
+import Image from 'next/image'
+
+import profilePic from '../public/italomarsili-background.webp'
+
 // eslint-disable-next-line
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -8,12 +12,12 @@ import 'swiper/css/bundle'
 import 'swiper/css'
 
 // import Swiper core and required modules
-import SwiperCore, { Keyboard, Pagination, Navigation } from 'swiper'
+import SwiperCore, { Keyboard, Pagination, Navigation, Scrollbar } from 'swiper'
 
 // install Swiper modules
 
 export default function Home() {
-  SwiperCore.use([Keyboard, Navigation])
+  SwiperCore.use([Keyboard, Navigation, Pagination, Scrollbar])
   return (
     <div className="bg-[#181818] font-sans">
       <Head>
@@ -106,7 +110,7 @@ export default function Home() {
         ></meta>
         {/*  Share Image Size  */}
         <meta property="og:locale" content="pt_BR"></meta>
-        <meta property="og:image:type" content="image/png"></meta>
+        <meta property="og:image:type" content="../public/favicon.ico"></meta>
         <meta property="og:image:width" content="1920"></meta>
         <meta property="og:image:height" content="1080"></meta>
         <meta property="og:type" content="website"></meta>
@@ -117,14 +121,14 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image"></meta>
         <meta property="linkedin:card" content="summary_large_image"></meta>
         {/*  Share Image URL  */}
-        <meta name="image" content="./share.png"></meta>
-        <meta itemprop="image" content="./share.png"></meta>
-        <meta property="og:image" content="./share.png"></meta>
-        <meta name="youtube:image" content="./share.png"></meta>
-        <meta name="instagram:image" content="./share.png"></meta>
-        <meta name="facebook:image" content="./share.png"></meta>
-        <meta name="twitter:image" content="./share.png"></meta>
-        <meta name="linkedin:image" content="./share.png"></meta>
+        <meta name="image" content="../public/favicon.ico"></meta>
+        <meta itemprop="image" content="../public/favicon.ico"></meta>
+        <meta property="og:image" content="../public/favicon.ico"></meta>
+        <meta name="youtube:image" content="../public/favicon.ico"></meta>
+        <meta name="instagram:image" content="../public/favicon.ico"></meta>
+        <meta name="facebook:image" content="../public/favicon.ico"></meta>
+        <meta name="twitter:image" content="../public/favicon.ico"></meta>
+        <meta name="linkedin:image" content="../public/favicon.ico"></meta>
         {/*  Site Name  */}
         <meta name="author" content="Italo Marsili"></meta>
         <meta itemprop="name" content="Italo Marsili"></meta>
@@ -226,8 +230,6 @@ export default function Home() {
         ></link>
       </Head>
 
-      {/* teste */}
-
       {/* Initial Section */}
       <div
         class="
@@ -251,25 +253,34 @@ export default function Home() {
         lg:bg-cover
         lg:bg-center
 
-        bg-italo
         relative
 
         min-h-screen
         "
       >
+        <Image
+          alt="Background Italo Marsili"
+          src={profilePic}
+          layout="fill"
+          objectFit="cover"
+          placeholder="blur"
+          quality={100}
+          srcset="
+          italomarsili-background.webp 500w, 
+          italomarsili-background.webp 1000w, 
+          italomarsili-background.webp 1500w
+          "
+          className=""
+        />
         <div
           class="
-          absolute
-          bottom-1
+          flex
           bg-gradient-to-b 
           from-[#181818] 
           to-[#222222] 
-          opacity-[12%] 
+          opacity-1
           inset-0 
-          z-0
-          select-none
-
-          min-h-screen
+          z-10
           "
         ></div>
 
@@ -293,11 +304,49 @@ export default function Home() {
           w-full
 
           mx-0
+          z-30
           "
         >
+          {/* <Image
+            src={profilePic}
+            alt="Italo Marsili"
+            className="
+            z-10
+
+            flex
+            flex-nowrap
+            relative 
+
+            bg-no-repeat
+            bg-cover
+            bg-center
+
+            mobilexs:bg-no-repeat
+            mobilexs:bg-cover
+            mobilexs:bg-customxs
+
+            sm:bg-no-repeat
+            sm:bg-cover
+            sm:bg-center
+
+            md:bg-no-repeat
+            md:bg-cover
+            md:bg-center
+
+            lg:bg-no-repeat
+            lg:bg-cover
+            lg:bg-center
+
+            min-h-screen
+            w-full
+            "
+            width={4096}
+            height={2160}
+          ></Image> */}
           <div
             class="
-            w-full
+            z-40
+
             flex
             self-center
             text-left
@@ -334,8 +383,6 @@ export default function Home() {
             lg:pr-0
             lg:justify-end
             lg:items-end
-
-            z-10
             "
           >
             <div
@@ -363,18 +410,22 @@ export default function Home() {
               >
                 Italo Marsili{' '}
               </h1>
+
               <p
                 class="
                 w-full
                 font-normal
 
-                mobilexs:text-[0.6rem]
+                mobilexs:text-[0.65rem]
+                tabletxs:text-[0.75rem]
                 text-[0.8rem]
                 sm:text-[0.9rem]
                 md:text-[1rem]
                 lg:text-[1rem]
 
                 pl-3
+
+                z-20
                 "
               >
                 Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
@@ -386,6 +437,7 @@ export default function Home() {
               </p>
               <h3
                 className="
+                z-20
                 mt-4
                 pl-3
                 text-[#EE2860]
@@ -404,7 +456,7 @@ export default function Home() {
               <>
                 <Swiper
                   slidesPerView={3.3}
-                  spaceBetween={20}
+                  spaceBetween={9}
                   keyboard={{
                     enabled: true
                   }}
@@ -417,23 +469,23 @@ export default function Home() {
 
                   mobilexs:flex-col
 
-                  mobilexs:w-[22rem]
+                  mobilexs:w-[23rem]
                   mobilexs:h-[16rem]
                   
-                  w-[34rem]
+                  w-[30rem]
                   h-[16rem]
 
                   sm:flex-col
-                  sm:w-[36rem]
+                  sm:w-[32rem]
                   sm:h-[16rem]
 
                   md:flex-col
-                  md:w-[37rem]
+                  md:w-[34rem]
                   md:h-[16rem]
 
                   lg:flex-col
-                  lg:w-[38rem]
-                  lg:h-[16rem]
+                  lg:w-[36rem]
+                  lg:h-[17rem]
                   
                   text-white
                   "
@@ -448,7 +500,7 @@ export default function Home() {
                     >
                       <div
                         className="
-                        border-2
+                        border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
                         select-none
@@ -456,6 +508,9 @@ export default function Home() {
 
                         hover:shadow-red
                         hover:border-[#ff4076]
+                        transition 
+                        duration-400 
+                        ease-in-out
                         "
                       >
                         <div
@@ -467,6 +522,7 @@ export default function Home() {
                           <a href="" className="outline-none">
                             <img
                               src="logo-guerrilhaway.png"
+                              alt="Guerrilha Way"
                               className="
                               rounded-t-[0.4rem] 
                               w-full
@@ -566,7 +622,7 @@ export default function Home() {
                     >
                       <div
                         className="
-                        border-2
+                        border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
                         select-none
@@ -574,6 +630,9 @@ export default function Home() {
 
                         hover:shadow-red
                         hover:border-[#ff4076]
+                        transition 
+                        duration-400 
+                        ease-in-out
                         "
                       >
                         <div
@@ -585,6 +644,7 @@ export default function Home() {
                           <a href="" className="outline-none">
                             <img
                               src="logo-menos50T.png"
+                              alt="Menos 50T"
                               className="
                               rounded-t-[0.4rem] 
                               w-full
@@ -682,7 +742,7 @@ export default function Home() {
                     >
                       <div
                         className="
-                        border-2
+                        border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
                         select-none
@@ -690,6 +750,9 @@ export default function Home() {
 
                         hover:shadow-red
                         hover:border-[#ff4076]
+                        transition 
+                        duration-400 
+                        ease-in-out
                         "
                       >
                         <div
@@ -701,6 +764,7 @@ export default function Home() {
                           <a href="" className="outline-none">
                             <img
                               src="logo-guerrilhaway.png"
+                              alt="Eixo"
                               className="
                               rounded-t-[0.4rem] 
                               w-full
@@ -744,8 +808,6 @@ export default function Home() {
                             font-bold
                             pb-[0.1rem]
                             pt-2
-
-                            
 
                             mobilexs:text-[0.68rem]
                             text-[0.7rem]
@@ -801,7 +863,7 @@ export default function Home() {
                     >
                       <div
                         className="
-                        border-2
+                        border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
                         select-none
@@ -809,6 +871,9 @@ export default function Home() {
 
                         hover:shadow-red
                         hover:border-[#ff4076]
+                        transition 
+                        duration-400 
+                        ease-in-out
                         "
                       >
                         <div
@@ -820,6 +885,7 @@ export default function Home() {
                           <a href="" className="outline-none">
                             <img
                               src="logo-guerrilhaway.png"
+                              alt="Os 4 Temperamentos"
                               className="
                               rounded-t-[0.4rem] 
                               w-full
@@ -873,7 +939,7 @@ export default function Home() {
                             lg:hidden
                             "
                           >
-                            Os 4 Tem...
+                            Os 4 Tempe...
                           </h3>
                           <h3
                             className="
@@ -938,7 +1004,7 @@ export default function Home() {
                     >
                       <div
                         className="
-                        border-2
+                        border-[1.4px]
                         border-[#EE2860]
                         rounded-lg
                         select-none
@@ -946,6 +1012,9 @@ export default function Home() {
 
                         hover:shadow-red
                         hover:border-[#ff4076]
+                        transition 
+                        duration-400 
+                        ease-in-out
                         "
                       >
                         <div
@@ -957,6 +1026,7 @@ export default function Home() {
                           <a href="" className="outline-none">
                             <img
                               src="logo-guerrilhaway.png"
+                              alt="Território Humano"
                               className="
                               rounded-t-[0.4rem] 
                               w-full
@@ -1010,7 +1080,7 @@ export default function Home() {
                             lg:hidden
                             "
                           >
-                            Território...
+                            Território Hu...
                           </h3>
                           <h3
                             className="
@@ -1234,7 +1304,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-instagram"></i>
+              <i class="uil uil-instagram" alt="Instagram"></i>
             </a>
             <a
               href="#"
@@ -1250,7 +1320,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-facebook-f"></i>
+              <i class="uil uil-facebook-f" alt="Facebook"></i>
             </a>
             <a
               href="#"
@@ -1266,7 +1336,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-twitter-alt"></i>
+              <i class="uil uil-twitter-alt" alt="Twitter"></i>
             </a>
             <a
               href="#"
@@ -1282,7 +1352,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-youtube"></i>
+              <i class="uil uil-youtube" alt="Youtube"></i>
             </a>
             <a
               href="#"
@@ -1298,7 +1368,7 @@ export default function Home() {
                 outline-none
                 "
             >
-              <i class="uil uil-linkedin-alt"></i>
+              <i class="uil uil-linkedin-alt" alt="LinkedIn"></i>
             </a>
           </div>
           <div

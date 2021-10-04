@@ -32,7 +32,7 @@ module.exports = {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: theme => ({
-        italo: "url('/italomarsili.png')"
+        italo: "url('/italomarsili.webp')"
       }),
       screens: {
         mobilexs: { max: '560px' },
