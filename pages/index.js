@@ -25,7 +25,18 @@ export default function Home() {
           {/* Title */}
           <title>Italo Marsili - Site Oficial </title>
           {/* Links */}
-          <link rel="canonical" href="https://italomarsili.vercel.app" />
+          <link
+            rel="canonical"
+            href="https://italomarsili.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          />
+          <link
+            rel="canonical"
+            href="http://italomarsili.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          />
           {/*  Description Tags  */}
           <meta
             property="og:title"
@@ -534,6 +545,7 @@ export default function Home() {
                           >
                             <a
                               href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="outline-none"
                             >
                               <img
@@ -595,7 +607,8 @@ export default function Home() {
                               Guerrilha Way
                             </h3>
                             <a
-                              href=""
+                              href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="
                             flex
                             font-light 
@@ -659,6 +672,7 @@ export default function Home() {
                           >
                             <a
                               href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="outline-none"
                             >
                               <img
@@ -718,7 +732,8 @@ export default function Home() {
                               Menos 50T
                             </h3>
                             <a
-                              href=""
+                              href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="
                             flex
                             font-light 
@@ -782,6 +797,7 @@ export default function Home() {
                           >
                             <a
                               href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="outline-none"
                             >
                               <img
@@ -842,7 +858,8 @@ export default function Home() {
                               <br className=""></br>
                             </h3>
                             <a
-                              href=""
+                              href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="
                             flex
                             font-light 
@@ -906,6 +923,7 @@ export default function Home() {
                           >
                             <a
                               href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="outline-none"
                             >
                               <img
@@ -986,7 +1004,8 @@ export default function Home() {
                               Os 4 Tempera...
                             </h3>
                             <a
-                              href=""
+                              href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="
                             flex
                             font-light 
@@ -1050,6 +1069,7 @@ export default function Home() {
                           >
                             <a
                               href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="outline-none"
                             >
                               <img
@@ -1130,7 +1150,8 @@ export default function Home() {
                               Território Humano
                             </h3>
                             <a
-                              href=""
+                              href="https://italomarsili.com.br"
+                              rel="noopener"
                               className="
                             flex
                             font-light 
@@ -1233,8 +1254,9 @@ export default function Home() {
           Alguma dúvida?
         </h4>
         <a
-          href=""
+          href="https://italomarsili.com.br"
           target="_blank"
+          rel="noopener"
           className="
             flex
             bg-[#25D366]
@@ -1319,7 +1341,9 @@ export default function Home() {
             justify-items-center"
           >
             <a
-              href="#"
+              href="https://italomarsili.com.br"
+              target="_blank"
+              rel="noopener"
               className="
               lg:w-[1.815rem]
               md:text-[1.75rem]
@@ -1351,7 +1375,9 @@ export default function Home() {
               <i className="uil uil-facebook-f" alt="Facebook"></i>
             </a>
             <a
-              href="#"
+              href="https://italomarsili.com.br"
+              target="_blank"
+              rel="noopener"
               className="
               lg:w-[1.815rem]
               md:text-[1.75rem]
@@ -1383,7 +1409,9 @@ export default function Home() {
               <i className="uil uil-youtube" alt="Youtube"></i>
             </a>
             <a
-              href="#"
+              href="https://italomarsili.com.br"
+              target="_blank"
+              rel="noopener"
               className="lg
               :w-[1.815rem]
                 md:text-[1.75rem]
@@ -1498,6 +1526,7 @@ export default function Home() {
               >
                 <a
                   href="https://italomarsili.com.br"
+                  rel="noopener"
                   target="_blank"
                   className="outline-none"
                 >
@@ -1507,6 +1536,7 @@ export default function Home() {
                 </a>
                 <a
                   href="https://italomarsili.com.br"
+                  rel="noopener"
                   target="_blank"
                   className="outline-none"
                 >
@@ -1516,6 +1546,7 @@ export default function Home() {
                 </a>
                 <a
                   href="https://italomarsili.com.br"
+                  rel="noopener"
                   target="_blank"
                   className="outline-none"
                 >
