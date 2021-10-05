@@ -250,7 +250,7 @@ export default function Home() {
       {/* Initial Section */}
       <section>
         <div
-          class="
+          className="
         bg-no-repeat
         bg-cover
         bg-center
@@ -286,7 +286,7 @@ export default function Home() {
             quality={75}
           />
           <div
-            class="
+            className="
           flex
           bg-gradient-to-b 
           from-[#181818] 
@@ -298,7 +298,7 @@ export default function Home() {
           ></div>
 
           <div
-            class="
+            className="
           min-h-screen 
 
           mobilexs:flex
@@ -357,7 +357,7 @@ export default function Home() {
             height={2160}
           ></Image> */}
             <div
-              class="
+              className="
             z-40
 
             flex
@@ -399,7 +399,7 @@ export default function Home() {
             "
             >
               <div
-                class="
+                className="
               flex
               flex-col  
               self-auto
@@ -407,7 +407,7 @@ export default function Home() {
               "
               >
                 <h1
-                  class="
+                  className="
                 mb-2
                 pl-2
                 font-bold 
@@ -425,7 +425,7 @@ export default function Home() {
                 </h1>
 
                 <h2
-                  class="
+                  className="
                 w-full
                 font-normal
 
@@ -1276,8 +1276,8 @@ export default function Home() {
       </div>
 
       {/* init footer */}
-      <footer class="footer-1 py-8 bottom-0 justify-center w-full select-none">
-        <div class="flex-wrap container mx-auto px-4">
+      <footer className="footer-1 py-8 bottom-0 justify-center w-full select-none">
+        <div className="flex-wrap container mx-auto px-4">
           {/* img logo */}
           <div
             className="
@@ -1332,7 +1332,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-instagram" alt="Instagram"></i>
+              <i className="uil uil-instagram" alt="Instagram"></i>
             </a>
             <a
               href="#"
@@ -1348,7 +1348,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-facebook-f" alt="Facebook"></i>
+              <i className="uil uil-facebook-f" alt="Facebook"></i>
             </a>
             <a
               href="#"
@@ -1364,7 +1364,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-twitter-alt" alt="Twitter"></i>
+              <i className="uil uil-twitter-alt" alt="Twitter"></i>
             </a>
             <a
               href="#"
@@ -1380,7 +1380,7 @@ export default function Home() {
               outline-none
               "
             >
-              <i class="uil uil-youtube" alt="Youtube"></i>
+              <i className="uil uil-youtube" alt="Youtube"></i>
             </a>
             <a
               href="#"
@@ -1396,11 +1396,11 @@ export default function Home() {
                 outline-none
                 "
             >
-              <i class="uil uil-linkedin-alt" alt="LinkedIn"></i>
+              <i className="uil uil-linkedin-alt" alt="LinkedIn"></i>
             </a>
           </div>
           <div
-            class="
+            className="
             sm:flex 
             sm:flex-wrap 
             sm:mt-12 
@@ -1435,7 +1435,7 @@ export default function Home() {
             </p>
 
             <div
-              class="
+              className="
               sm:flex 
               sm:flex-wrap 
               font-light 
@@ -1447,7 +1447,7 @@ export default function Home() {
               justify-items-center"
             >
               <div
-                class="
+                className="
                 w-full
                 sm:pt-3
                 lg:w-3/6
@@ -1467,7 +1467,7 @@ export default function Home() {
                 <p>Copyright 2018 - Italo Marsili - All Rights Reserved</p>
               </div>
               <div
-                class="
+                className="
                 md:w-2/2
                 md:pt-3
                 md:space-x-10
@@ -1499,7 +1499,7 @@ export default function Home() {
                 <a
                   href="https://italomarsili.com.br"
                   target="_blank"
-                  class="outline-none"
+                  className="outline-none"
                 >
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     Política de privacidade
@@ -1508,7 +1508,7 @@ export default function Home() {
                 <a
                   href="https://italomarsili.com.br"
                   target="_blank"
-                  class="outline-none"
+                  className="outline-none"
                 >
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     TERMOS LEGAIS
@@ -1517,7 +1517,7 @@ export default function Home() {
                 <a
                   href="https://italomarsili.com.br"
                   target="_blank"
-                  class="outline-none"
+                  className="outline-none"
                 >
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     Contato
