@@ -31,7 +31,7 @@ export default function Home() {
         <meta name="linkedin:title" content="Italo Marsili"></meta>
         <link rel="icon" href="/favicon.ico" /> {/* Icon - Website */}
         {/*  Description  */}
-        <meta
+        {/* <meta
           name="description"
           content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
         ></meta>
@@ -62,7 +62,7 @@ export default function Home() {
         <meta
           name="linkedin:description"
           content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
+        ></meta> */}
         {/*  Site URL  */}
         <link rel="canonical" href="https://italomarsili.com.br/"></link>
         <meta property="og:url" content="https://italomarsili.com.br/"></meta>
@@ -264,12 +264,8 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
+          priority="eager"
           quality={100}
-          srcset="
-          italomarsili-background.webp 500w, 
-          italomarsili-background.webp 1000w, 
-          italomarsili-background.webp 1500w
-          "
           className=""
         />
         <div

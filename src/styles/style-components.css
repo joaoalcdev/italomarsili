@@ -5,15 +5,12 @@
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
+  width: 10px;
   background-color: #333333;
 }
 h1::selection {
   background-color: #ee2860;
   color: white;
-}
-h3::selection {
-  background-color: white;
-  color: #ee2860;
 }
 ::selection {
   background-color: white;
