@@ -20,219 +20,237 @@ export default function Home() {
   SwiperCore.use([Keyboard, Navigation, Pagination, Scrollbar])
   return (
     <div className="bg-[#181818] font-sans">
-      <Head>
-        {/* Title */}
-        <title>Italo Marsili - Site Oficial </title>
-        <meta property="og:title" content="Italo Marsili - Site Oficial"></meta>
-        <meta name="instagram:title" content="Italo Marsili"></meta>
-        <meta name="youtube:title" content="Italo Marsili"></meta>
-        <meta name="facebook:title" content="Italo Marsili"></meta>
-        <meta name="twitter:title" content="Italo Marsili"></meta>
-        <meta name="linkedin:title" content="Italo Marsili"></meta>
-        <link rel="icon" href="/favicon.ico" /> {/* Icon - Website */}
-        {/*  Description  */}
-        {/* <meta
-          name="description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          itemprop="description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          property="og:description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          name="instagram:description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          name="youtube:description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          name="facebook:description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          name="twitter:description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta>
-        <meta
-          name="linkedin:description"
-          content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
-        ></meta> */}
-        {/*  Site URL  */}
-        <link rel="canonical" href="https://italomarsili.com.br/"></link>
-        <meta property="og:url" content="https://italomarsili.com.br/"></meta>
-        <meta
-          name="instagram:site"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta name="youtube:site" content="https://italomarsili.com.br/"></meta>
-        <meta
-          name="facebook:site"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta name="twitter:site" content="https://italomarsili.com.br/"></meta>
-        <meta
-          name="linkedin:site"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta
-          property="instagram:url"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta
-          property="youtube:url"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta
-          property="facebook:url"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta
-          property="twitter:url"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        <meta
-          property="linkedin:url"
-          content="https://italomarsili.com.br/"
-        ></meta>
-        {/*  Theme Color Global */}
-        <meta name="theme-color" content="#181818"></meta>
-        <meta name="msapplication-TileColor" content="#181818"></meta>
-        <meta name="msapplication-navbutton-color" content="#181818"></meta>
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="#181818"
-        ></meta>
-        {/*  Share Image Size  */}
-        <meta property="og:locale" content="pt_BR"></meta>
-        <meta property="og:image:type" content="../public/favicon.ico"></meta>
-        <meta property="og:image:width" content="1920"></meta>
-        <meta property="og:image:height" content="1080"></meta>
-        <meta property="og:type" content="website"></meta>
-        <meta property="og:card" content="summary_large_image"></meta>
-        <meta property="instagram:card" content="summary_large_image"></meta>
-        <meta property="youtube:card" content="summary_large_image"></meta>
-        <meta property="facebook:card" content="summary_large_image"></meta>
-        <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="linkedin:card" content="summary_large_image"></meta>
-        {/*  Share Image URL  */}
-        <meta name="image" content="../public/favicon.ico"></meta>
-        <meta itemprop="image" content="../public/favicon.ico"></meta>
-        <meta property="og:image" content="../public/favicon.ico"></meta>
-        <meta name="youtube:image" content="../public/favicon.ico"></meta>
-        <meta name="instagram:image" content="../public/favicon.ico"></meta>
-        <meta name="facebook:image" content="../public/favicon.ico"></meta>
-        <meta name="twitter:image" content="../public/favicon.ico"></meta>
-        <meta name="linkedin:image" content="../public/favicon.ico"></meta>
-        {/*  Site Name  */}
-        <meta name="author" content="Italo Marsili"></meta>
-        <meta itemprop="name" content="Italo Marsili"></meta>
-        <meta name="instagram:site" content="Italo Marsili"></meta>
-        <meta name="youtube:site" content="Italo Marsili"></meta>
-        <meta name="facebook:site" content="Italo Marsili"></meta>
-        <meta name="twitter:site" content="Italo Marsili"></meta>
-        <meta name="linkedin:site" content="Italo Marsili"></meta>
-        <meta name="article:author" content="Italo Marsili"></meta>
-        <meta name="application-name" content="Italo Marsili"></meta>
-        <meta property="og:site_name" content="Italo Marsili"></meta>
-        <meta name="apple-mobile-web-app-title" content="Italo Marsili"></meta>
-        {/*  Favicons  */}
-        <link
-          rel="apple-touch-icon"
-          sizes="57x57"
-          href="favicon-64x64.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="60x60"
-          href="apple-touch-icon-60x60.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="72x72"
-          href="apple-touch-icon-72x72.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="76x76"
-          href="apple-touch-icon-76x76.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="114x114"
-          href="apple-touch-icon-114x114.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="120x120"
-          href="apple-touch-icon-120x120.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="144x144"
-          href="apple-touch-icon-144x144.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="152x152"
-          href="apple-touch-icon-152x152.png"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="apple-touch-icon-180x180.png"
-        ></link>
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="favicon-32x32.png"
-        ></link>
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="194x194"
-          href="favicon-194x194.png"
-        ></link>
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="192x192"
-          href="android-chrome-192x192.png"
-        ></link>
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="favicon-16x16.png"
-        ></link>
-        <link
-          rel="mask-icon"
-          href="safari-pinned-tab.svg"
-          color="#181818"
-        ></link>
-        <meta
-          name="msapplication-TileImage"
-          content="mstile-144x144.png"
-        ></meta>
-        <meta name="msapplication-config" content="browserconfig.xml"></meta>
-        {/*  Manifest  */}
-        <link rel="manifest" href="site.webmanifest"></link>
-        {/* CSS imports  */}
-        <link
-          rel="stylesheet"
-          href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-        ></link>
-      </Head>
+      <html lang="en">
+        <Head>
+          {/* Title */}
+          <title>Italo Marsili - Site Oficial </title>
+          {/* Links */}
+          <link rel="canonical" href="https://italomarsili.vercel.app" />
+          {/*  Description Tags  */}
+          <meta
+            property="og:title"
+            content="Italo Marsili - Site Oficial"
+          ></meta>
+          <meta name="instagram:title" content="Italo Marsili"></meta>
+          <meta name="youtube:title" content="Italo Marsili"></meta>
+          <meta name="facebook:title" content="Italo Marsili"></meta>
+          <meta name="twitter:title" content="Italo Marsili"></meta>
+          <meta name="linkedin:title" content="Italo Marsili"></meta>
+          <link rel="icon" href="/favicon.ico" /> {/* Icon - Website */}
+          {/*  Description  */}
+          <meta
+            name="description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            itemprop="description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            property="og:description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            name="instagram:description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            name="youtube:description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            name="facebook:description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            name="twitter:description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          <meta
+            name="linkedin:description"
+            content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
+          ></meta>
+          {/*  Site URL  */}
+          <link rel="canonical" href="https://italomarsili.com.br/"></link>
+          <meta property="og:url" content="https://italomarsili.com.br/"></meta>
+          <meta
+            name="instagram:site"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            name="youtube:site"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            name="facebook:site"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            name="twitter:site"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            name="linkedin:site"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            property="instagram:url"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            property="youtube:url"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            property="facebook:url"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            property="twitter:url"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          <meta
+            property="linkedin:url"
+            content="https://italomarsili.com.br/"
+          ></meta>
+          {/*  Theme Color Global */}
+          <meta name="theme-color" content="#181818"></meta>
+          <meta name="msapplication-TileColor" content="#181818"></meta>
+          <meta name="msapplication-navbutton-color" content="#181818"></meta>
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="#181818"
+          ></meta>
+          {/*  Share Image Size  */}
+          <meta property="og:locale" content="pt_BR"></meta>
+          <meta property="og:image:type" content="../public/favicon.ico"></meta>
+          <meta property="og:image:width" content="1920"></meta>
+          <meta property="og:image:height" content="1080"></meta>
+          <meta property="og:type" content="website"></meta>
+          <meta property="og:card" content="summary_large_image"></meta>
+          <meta property="instagram:card" content="summary_large_image"></meta>
+          <meta property="youtube:card" content="summary_large_image"></meta>
+          <meta property="facebook:card" content="summary_large_image"></meta>
+          <meta property="twitter:card" content="summary_large_image"></meta>
+          <meta property="linkedin:card" content="summary_large_image"></meta>
+          {/*  Share Image URL  */}
+          <meta name="image" content="../public/favicon.ico"></meta>
+          <meta itemprop="image" content="../public/favicon.ico"></meta>
+          <meta property="og:image" content="../public/favicon.ico"></meta>
+          <meta name="youtube:image" content="../public/favicon.ico"></meta>
+          <meta name="instagram:image" content="../public/favicon.ico"></meta>
+          <meta name="facebook:image" content="../public/favicon.ico"></meta>
+          <meta name="twitter:image" content="../public/favicon.ico"></meta>
+          <meta name="linkedin:image" content="../public/favicon.ico"></meta>
+          {/*  Site Name  */}
+          <meta name="author" content="Italo Marsili"></meta>
+          <meta itemprop="name" content="Italo Marsili"></meta>
+          <meta name="instagram:site" content="Italo Marsili"></meta>
+          <meta name="youtube:site" content="Italo Marsili"></meta>
+          <meta name="facebook:site" content="Italo Marsili"></meta>
+          <meta name="twitter:site" content="Italo Marsili"></meta>
+          <meta name="linkedin:site" content="Italo Marsili"></meta>
+          <meta name="article:author" content="Italo Marsili"></meta>
+          <meta name="application-name" content="Italo Marsili"></meta>
+          <meta property="og:site_name" content="Italo Marsili"></meta>
+          <meta
+            name="apple-mobile-web-app-title"
+            content="Italo Marsili"
+          ></meta>
+          {/*  Favicons  */}
+          <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="favicon-64x64.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="apple-touch-icon-60x60.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="apple-touch-icon-72x72.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="apple-touch-icon-76x76.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="apple-touch-icon-114x114.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="apple-touch-icon-120x120.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="apple-touch-icon-144x144.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="apple-touch-icon-152x152.png"
+          ></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon-180x180.png"
+          ></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+          ></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="194x194"
+            href="favicon-194x194.png"
+          ></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="android-chrome-192x192.png"
+          ></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+          ></link>
+          <link
+            rel="mask-icon"
+            href="safari-pinned-tab.svg"
+            color="#181818"
+          ></link>
+          <meta
+            name="msapplication-TileImage"
+            content="mstile-144x144.png"
+          ></meta>
+          <meta name="msapplication-config" content="browserconfig.xml"></meta>
+          {/*  Manifest  */}
+          <link rel="manifest" href="site.webmanifest"></link>
+          {/* CSS imports  */}
+          <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+          ></link>
+        </Head>
+      </html>
 
       {/* Initial Section */}
-      <div
-        class="
+      <section>
+        <div
+          class="
         bg-no-repeat
         bg-cover
         bg-center
@@ -257,19 +275,18 @@ export default function Home() {
 
         min-h-screen
         "
-      >
-        <Image
-          alt="Background Italo Marsili"
-          src={profilePic}
-          layout="fill"
-          objectFit="cover"
-          placeholder="blur"
-          priority="eager"
-          quality={100}
-          className=""
-        />
-        <div
-          class="
+        >
+          <Image
+            alt="Background Italo Marsili"
+            src={profilePic}
+            layout="fill"
+            objectFit="cover"
+            placeholder="blur"
+            priority="eager"
+            quality={75}
+          />
+          <div
+            class="
           flex
           bg-gradient-to-b 
           from-[#181818] 
@@ -278,10 +295,10 @@ export default function Home() {
           inset-0 
           z-10
           "
-        ></div>
+          ></div>
 
-        <div
-          class="
+          <div
+            class="
           min-h-screen 
 
           mobilexs:flex
@@ -302,8 +319,8 @@ export default function Home() {
           mx-0
           z-30
           "
-        >
-          {/* <Image
+          >
+            {/* <Image
             src={profilePic}
             alt="Italo Marsili"
             className="
@@ -339,8 +356,8 @@ export default function Home() {
             width={4096}
             height={2160}
           ></Image> */}
-          <div
-            class="
+            <div
+              class="
             z-40
 
             flex
@@ -380,17 +397,17 @@ export default function Home() {
             lg:justify-end
             lg:items-end
             "
-          >
-            <div
-              class="
+            >
+              <div
+                class="
               flex
               flex-col  
               self-auto
               text-white
               "
-            >
-              <h1
-                class="
+              >
+                <h1
+                  class="
                 mb-2
                 pl-2
                 font-bold 
@@ -403,12 +420,12 @@ export default function Home() {
 
                 text-[#EE2860]
                 "
-              >
-                Italo Marsili{' '}
-              </h1>
+                >
+                  Italo Marsili{' '}
+                </h1>
 
-              <p
-                class="
+                <h2
+                  class="
                 w-full
                 font-normal
 
@@ -423,16 +440,16 @@ export default function Home() {
 
                 z-20
                 "
-              >
-                Criador do <strong>Guerrilha Way®</strong>, o maior programa de{' '}
-                <br></br>
-                desenvolvimento e amadurecimento pessoal da América <br></br>
-                Latina, e autor do livro best-seller “Os 4 Temperamentos na{' '}
-                <br></br>
-                Educação dos Filhos”.
-              </p>
-              <h3
-                className="
+                >
+                  Criador do <strong>Guerrilha Way®</strong>, o maior programa
+                  de <br></br>
+                  desenvolvimento e amadurecimento pessoal da América <br></br>
+                  Latina, e autor do livro best-seller “Os 4 Temperamentos na{' '}
+                  <br></br>
+                  Educação dos Filhos”.
+                </h2>
+                <h3
+                  className="
                 z-20
                 mt-4
                 pl-3
@@ -445,18 +462,18 @@ export default function Home() {
                 md:text-lg 
                 lg:text-xl
                 "
-              >
-                Conheça nossos cursos:
-              </h3>
-              {/* init carousel */}
-              <>
-                <Swiper
-                  slidesPerView={3.3}
-                  spaceBetween={9}
-                  keyboard={{
-                    enabled: true
-                  }}
-                  className="
+                >
+                  Conheça nossos cursos:
+                </h3>
+                {/* init carousel */}
+                <>
+                  <Swiper
+                    slidesPerView={3.3}
+                    spaceBetween={9}
+                    keyboard={{
+                      enabled: true
+                    }}
+                    className="
                   mySwiper
                   SwiperCursor
 
@@ -485,17 +502,17 @@ export default function Home() {
                   
                   text-white
                   "
-                >
-                  {/* swiper 01 (slider) */}
-                  <div className="flex">
-                    <SwiperSlide
-                      className="
+                  >
+                    {/* swiper 01 (slider) */}
+                    <div className="flex">
+                      <SwiperSlide
+                        className="
                       pt-4
                       ml-4
                       "
-                    >
-                      <div
-                        className="
+                      >
+                        <div
+                          className="
                         border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
@@ -508,28 +525,31 @@ export default function Home() {
                         duration-400 
                         ease-in-out
                         "
-                      >
-                        <div
-                          className="
+                        >
+                          <div
+                            className="
                           bg-[#060102] 
                           rounded-t-lg
                           "
-                        >
-                          <a href="" className="outline-none">
-                            <img
-                              src="logo-guerrilhaway.png"
-                              alt="Guerrilha Way"
-                              className="
+                          >
+                            <a
+                              href="https://italomarsili.com.br"
+                              className="outline-none"
+                            >
+                              <img
+                                src="logo-guerrilhaway.png"
+                                alt="Guerrilha Way"
+                                className="
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
                               SwiperCursor
                               "
-                            ></img>
-                          </a>
-                        </div>
-                        <div
-                          className="
+                              ></img>
+                            </a>
+                          </div>
+                          <div
+                            className="
                           flex-col
                           bg-[#060606]
                           w-full
@@ -554,9 +574,9 @@ export default function Home() {
 
                           rounded-b-[0.4rem]
                           "
-                        >
-                          <h3
-                            className="
+                          >
+                            <h3
+                              className="
                             flex
                             text-white
                             font-bold
@@ -571,20 +591,20 @@ export default function Home() {
                             md:text-[0.8rem]
                             lg:text-[0.9rem]
                             "
-                          >
-                            Guerrilha Way
-                          </h3>
-                          <a
-                            href=""
-                            className="
+                            >
+                              Guerrilha Way
+                            </h3>
+                            <a
+                              href=""
+                              className="
                             flex
                             font-light 
                             text-[#EE2860] 
                             outline-none
                             "
-                          >
-                            <p
-                              className="
+                            >
+                              <p
+                                className="
                               flex 
                               border-b-[1px]
                               border-[#EE2860]
@@ -600,24 +620,24 @@ export default function Home() {
                               duration-450 
                               ease-in-out
                               "
-                            >
-                              Visitar página
-                            </p>
-                          </a>
+                              >
+                                Visitar página
+                              </p>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  </div>
-                  {/* swiper 01 (slider) */}
-                  {/* swiper 02 (slider) */}
-                  <div className="flex">
-                    <SwiperSlide
-                      className="
+                      </SwiperSlide>
+                    </div>
+                    {/* swiper 01 (slider) */}
+                    {/* swiper 02 (slider) */}
+                    <div className="flex">
+                      <SwiperSlide
+                        className="
                       pt-4
                       "
-                    >
-                      <div
-                        className="
+                      >
+                        <div
+                          className="
                         border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
@@ -630,28 +650,31 @@ export default function Home() {
                         duration-400 
                         ease-in-out
                         "
-                      >
-                        <div
-                          className="
+                        >
+                          <div
+                            className="
                           bg-[#060102] 
                           rounded-t-lg
                           "
-                        >
-                          <a href="" className="outline-none">
-                            <img
-                              src="logo-menos50T.png"
-                              alt="Menos 50T"
-                              className="
+                          >
+                            <a
+                              href="https://italomarsili.com.br"
+                              className="outline-none"
+                            >
+                              <img
+                                src="logo-menos50T.png"
+                                alt="Menos 50T"
+                                className="
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
                               SwiperCursor
                               "
-                            ></img>
-                          </a>
-                        </div>
-                        <div
-                          className="
+                              ></img>
+                            </a>
+                          </div>
+                          <div
+                            className="
                           flex-col
                           bg-[#060606]
                           w-full
@@ -676,9 +699,9 @@ export default function Home() {
 
                           rounded-b-[0.4rem]
                           "
-                        >
-                          <h3
-                            className="
+                          >
+                            <h3
+                              className="
                             flex
                             text-white
                             font-bold
@@ -691,20 +714,20 @@ export default function Home() {
                             md:text-[0.8rem]
                             lg:text-[0.9rem]
                             "
-                          >
-                            Menos 50T
-                          </h3>
-                          <a
-                            href=""
-                            className="
+                            >
+                              Menos 50T
+                            </h3>
+                            <a
+                              href=""
+                              className="
                             flex
                             font-light 
                             text-[#EE2860] 
                             outline-none
                             "
-                          >
-                            <p
-                              className="
+                            >
+                              <p
+                                className="
                               flex 
                               border-b-[1px]
                               border-[#EE2860]
@@ -720,24 +743,24 @@ export default function Home() {
                               duration-450 
                               ease-in-out
                               "
-                            >
-                              Visitar página
-                            </p>
-                          </a>
+                              >
+                                Visitar página
+                              </p>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  </div>
-                  {/* swiper 02 (slider) */}
-                  {/* swiper 03 (slider) */}
-                  <div className="flex">
-                    <SwiperSlide
-                      className="
+                      </SwiperSlide>
+                    </div>
+                    {/* swiper 02 (slider) */}
+                    {/* swiper 03 (slider) */}
+                    <div className="flex">
+                      <SwiperSlide
+                        className="
                       pt-4
                       "
-                    >
-                      <div
-                        className="
+                      >
+                        <div
+                          className="
                         border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
@@ -750,28 +773,31 @@ export default function Home() {
                         duration-400 
                         ease-in-out
                         "
-                      >
-                        <div
-                          className="
+                        >
+                          <div
+                            className="
                           bg-[#060102] 
                           rounded-t-lg
                           "
-                        >
-                          <a href="" className="outline-none">
-                            <img
-                              src="logo-guerrilhaway.png"
-                              alt="Eixo"
-                              className="
+                          >
+                            <a
+                              href="https://italomarsili.com.br"
+                              className="outline-none"
+                            >
+                              <img
+                                src="logo-guerrilhaway.png"
+                                alt="Eixo"
+                                className="
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
                               SwiperCursor
                               "
-                            ></img>
-                          </a>
-                        </div>
-                        <div
-                          className="
+                              ></img>
+                            </a>
+                          </div>
+                          <div
+                            className="
                           flex-col
                           bg-[#060606]
                           w-full
@@ -796,9 +822,9 @@ export default function Home() {
 
                           rounded-b-[0.4rem]
                           "
-                        >
-                          <h3
-                            className="
+                          >
+                            <h3
+                              className="
                             flex
                             text-white
                             font-bold
@@ -811,21 +837,21 @@ export default function Home() {
                             md:text-[0.8rem]
                             lg:text-[0.9rem]
                             "
-                          >
-                            Eixo
-                            <br className=""></br>
-                          </h3>
-                          <a
-                            href=""
-                            className="
+                            >
+                              Eixo
+                              <br className=""></br>
+                            </h3>
+                            <a
+                              href=""
+                              className="
                             flex
                             font-light 
                             text-[#EE2860] 
                             outline-none
                             "
-                          >
-                            <p
-                              className="
+                            >
+                              <p
+                                className="
                               flex 
                               border-b-[1px]
                               border-[#EE2860]
@@ -841,24 +867,24 @@ export default function Home() {
                               duration-450 
                               ease-in-out
                               "
-                            >
-                              Visitar página
-                            </p>
-                          </a>
+                              >
+                                Visitar página
+                              </p>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  </div>
-                  {/* swiper 03 (slider) */}
-                  {/* swiper 04 (slider) */}
-                  <div className="flex">
-                    <SwiperSlide
-                      className="
+                      </SwiperSlide>
+                    </div>
+                    {/* swiper 03 (slider) */}
+                    {/* swiper 04 (slider) */}
+                    <div className="flex">
+                      <SwiperSlide
+                        className="
                       pt-4
                       "
-                    >
-                      <div
-                        className="
+                      >
+                        <div
+                          className="
                         border-[1.3px]
                         border-[#EE2860]
                         rounded-lg
@@ -871,28 +897,31 @@ export default function Home() {
                         duration-400 
                         ease-in-out
                         "
-                      >
-                        <div
-                          className="
+                        >
+                          <div
+                            className="
                           bg-[#060102] 
                           rounded-t-lg
                           "
-                        >
-                          <a href="" className="outline-none">
-                            <img
-                              src="logo-guerrilhaway.png"
-                              alt="Os 4 Temperamentos"
-                              className="
+                          >
+                            <a
+                              href="https://italomarsili.com.br"
+                              className="outline-none"
+                            >
+                              <img
+                                src="logo-guerrilhaway.png"
+                                alt="Os 4 Temperamentos"
+                                className="
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
                               SwiperCursor
                               "
-                            ></img>
-                          </a>
-                        </div>
-                        <div
-                          className="
+                              ></img>
+                            </a>
+                          </div>
+                          <div
+                            className="
                           flex-col
                           bg-[#060606]
                           w-full
@@ -917,9 +946,9 @@ export default function Home() {
 
                           rounded-b-[0.4rem]
                           "
-                        >
-                          <h3
-                            className="
+                          >
+                            <h3
+                              className="
                             text-white
                             font-bold
                             pb-[0.1rem]
@@ -934,11 +963,11 @@ export default function Home() {
                             md:hidden
                             lg:hidden
                             "
-                          >
-                            Os 4 Tempe...
-                          </h3>
-                          <h3
-                            className="
+                            >
+                              Os 4 Tempe...
+                            </h3>
+                            <h3
+                              className="
                             flex
                             text-white
                             font-bold
@@ -953,20 +982,20 @@ export default function Home() {
                             md:text-[0.8rem]
                             lg:text-[0.9rem]
                             "
-                          >
-                            Os 4 Tempera...
-                          </h3>
-                          <a
-                            href=""
-                            className="
+                            >
+                              Os 4 Tempera...
+                            </h3>
+                            <a
+                              href=""
+                              className="
                             flex
                             font-light 
                             text-[#EE2860] 
                             outline-none
                             "
-                          >
-                            <p
-                              className="
+                            >
+                              <p
+                                className="
                               flex 
                               border-b-[1px]
                               border-[#EE2860]
@@ -982,24 +1011,24 @@ export default function Home() {
                               duration-450 
                               ease-in-out
                               "
-                            >
-                              Visitar página
-                            </p>
-                          </a>
+                              >
+                                Visitar página
+                              </p>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  </div>
-                  {/* swiper 04 (slider) */}
-                  {/* swiper 05 (slider) */}
-                  <div className="flex">
-                    <SwiperSlide
-                      className="
+                      </SwiperSlide>
+                    </div>
+                    {/* swiper 04 (slider) */}
+                    {/* swiper 05 (slider) */}
+                    <div className="flex">
+                      <SwiperSlide
+                        className="
                       pt-4
                       "
-                    >
-                      <div
-                        className="
+                      >
+                        <div
+                          className="
                         border-[1.4px]
                         border-[#EE2860]
                         rounded-lg
@@ -1012,28 +1041,31 @@ export default function Home() {
                         duration-400 
                         ease-in-out
                         "
-                      >
-                        <div
-                          className="
+                        >
+                          <div
+                            className="
                           bg-[#060102] 
                           rounded-t-lg
                           "
-                        >
-                          <a href="" className="outline-none">
-                            <img
-                              src="logo-guerrilhaway.png"
-                              alt="Território Humano"
-                              className="
+                          >
+                            <a
+                              href="https://italomarsili.com.br"
+                              className="outline-none"
+                            >
+                              <img
+                                src="logo-guerrilhaway.png"
+                                alt="Território Humano"
+                                className="
                               rounded-t-[0.4rem] 
                               w-full
                               h-full
                               SwiperCursor
                               "
-                            ></img>
-                          </a>
-                        </div>
-                        <div
-                          className="
+                              ></img>
+                            </a>
+                          </div>
+                          <div
+                            className="
                           flex-col
                           bg-[#060606]
                           w-full
@@ -1058,9 +1090,9 @@ export default function Home() {
 
                           rounded-b-[0.4rem]
                           "
-                        >
-                          <h3
-                            className="
+                          >
+                            <h3
+                              className="
                             text-white
                             font-bold
                             pb-[0.1rem]
@@ -1075,11 +1107,11 @@ export default function Home() {
                             md:hidden
                             lg:hidden
                             "
-                          >
-                            Território Hu...
-                          </h3>
-                          <h3
-                            className="
+                            >
+                              Território Hu...
+                            </h3>
+                            <h3
+                              className="
                             flex
                             text-white
                             font-bold
@@ -1094,20 +1126,20 @@ export default function Home() {
                             md:text-[0.8rem]
                             lg:text-[0.9rem]
                             "
-                          >
-                            Território Humano
-                          </h3>
-                          <a
-                            href=""
-                            className="
+                            >
+                              Território Humano
+                            </h3>
+                            <a
+                              href=""
+                              className="
                             flex
                             font-light 
                             text-[#EE2860] 
                             outline-none
                             "
-                          >
-                            <p
-                              className="
+                            >
+                              <p
+                                className="
                               flex 
                               border-b-[1px]
                               border-[#EE2860]
@@ -1123,31 +1155,31 @@ export default function Home() {
                               duration-450 
                               ease-in-out
                               "
-                            >
-                              Visitar página
-                            </p>
-                          </a>
+                              >
+                                Visitar página
+                              </p>
+                            </a>
+                          </div>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  </div>
-                  {/* swiper 05 (slider) */}
-                  {/* swiper 06 (slider) */}
-                  <div className="">
-                    <SwiperSlide
-                      className="
+                      </SwiperSlide>
+                    </div>
+                    {/* swiper 05 (slider) */}
+                    {/* swiper 06 (slider) */}
+                    <div className="">
+                      <SwiperSlide
+                        className="
                       "
-                    ></SwiperSlide>
-                  </div>
-                  {/* swiper 06 (slider) */}
-                </Swiper>
-              </>
-              {/* end carousel */}
+                      ></SwiperSlide>
+                    </div>
+                    {/* swiper 06 (slider) */}
+                  </Swiper>
+                </>
+                {/* end carousel */}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
+      </section>
       {/* CTA Button - Whatsapp */}
       <div
         className="
@@ -1464,17 +1496,29 @@ export default function Home() {
                 min-w-min
                 "
               >
-                <a href="" target="_blank" class="outline-none">
+                <a
+                  href="https://italomarsili.com.br"
+                  target="_blank"
+                  class="outline-none"
+                >
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     Política de privacidade
                   </h6>
                 </a>
-                <a href="" target="_blank" class="outline-none">
+                <a
+                  href="https://italomarsili.com.br"
+                  target="_blank"
+                  class="outline-none"
+                >
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     TERMOS LEGAIS
                   </h6>
                 </a>
-                <a href="" target="_blank" class="outline-none">
+                <a
+                  href="https://italomarsili.com.br"
+                  target="_blank"
+                  class="outline-none"
+                >
                   <h6 className="hover:text-[#EE2860] transition duration-450 ease-in-out">
                     Contato
                   </h6>
