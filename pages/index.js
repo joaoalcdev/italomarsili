@@ -24,19 +24,6 @@ export default function Home() {
         <Head>
           {/* Title */}
           <title>Italo Marsili - Site Oficial </title>
-          {/* Links */}
-          <link
-            rel="canonical"
-            href="https://italomarsili.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-          />
-          <link
-            rel="canonical"
-            href="http://italomarsili.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-          />
           {/*  Description Tags  */}
           <meta
             property="og:title"
@@ -82,47 +69,57 @@ export default function Home() {
             content="Criador do Guerrilha Way® , o maior programa de desenvolvimento e amadurecimento pessoal da América Latina, e autor do livro best-seller “Os 4 Temperamentos na Educação dos Filhos”."
           ></meta>
           {/*  Site URL  */}
-          <link rel="canonical" href="https://italomarsili.com.br/"></link>
-          <meta property="og:url" content="https://italomarsili.com.br/"></meta>
+          {/* Links */}
+          <link
+            rel="canonical"
+            href="https://italomarsili.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          />
+          <link rel="canonical" href="https://italomarsili.vercel.app"></link>
+          <meta
+            property="og:url"
+            content="https://italomarsili.vercel.app"
+          ></meta>
           <meta
             name="instagram:site"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             name="youtube:site"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             name="facebook:site"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             name="twitter:site"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             name="linkedin:site"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             property="instagram:url"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             property="youtube:url"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             property="facebook:url"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             property="twitter:url"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           <meta
             property="linkedin:url"
-            content="https://italomarsili.com.br/"
+            content="https://italomarsili.vercel.app"
           ></meta>
           {/*  Theme Color Global */}
           <meta name="theme-color" content="#181818"></meta>
@@ -287,26 +284,51 @@ export default function Home() {
         min-h-screen
         "
         >
-          <Image
-            alt="Background Italo Marsili"
-            src={profilePic}
-            layout="fill"
-            objectFit="cover"
-            placeholder="blur"
-            priority="eager"
-            quality={75}
-          />
           <div
             className="
-          flex
-          bg-gradient-to-b 
-          from-[#181818] 
-          to-[#222222] 
-          opacity-1
-          inset-0 
-          z-10
-          "
-          ></div>
+            flex
+            bg-gradient-to-b 
+            from-[#181818] 
+            to-[#222222] 
+            opacity-90
+            inset-0 
+            z-10
+            select-none
+            "
+            draggable="false"
+          >
+            <Image
+              alt="Background Italo Marsili"
+              src={profilePic}
+              layout="fill"
+              objectFit="cover"
+              placeholder="blur"
+              priority="eager"
+              quality={80}
+              draggable="false"
+              className="
+              bg-no-repeat
+              bg-cover
+              bg-center
+  
+              mobilexs:bg-no-repeat
+              mobilexs:bg-cover
+              mobilexs:bg-customxs
+  
+              sm:bg-no-repeat
+              sm:bg-cover
+              sm:bg-center
+  
+              md:bg-no-repeat
+              md:bg-cover
+              md:bg-center
+  
+              lg:bg-no-repeat
+              lg:bg-cover
+              lg:bg-custom
+              "
+            />
+          </div>
 
           <div
             className="
@@ -331,42 +353,6 @@ export default function Home() {
           z-30
           "
           >
-            {/* <Image
-            src={profilePic}
-            alt="Italo Marsili"
-            className="
-            z-10
-
-            flex
-            flex-nowrap
-            relative 
-
-            bg-no-repeat
-            bg-cover
-            bg-center
-
-            mobilexs:bg-no-repeat
-            mobilexs:bg-cover
-            mobilexs:bg-customxs
-
-            sm:bg-no-repeat
-            sm:bg-cover
-            sm:bg-center
-
-            md:bg-no-repeat
-            md:bg-cover
-            md:bg-center
-
-            lg:bg-no-repeat
-            lg:bg-cover
-            lg:bg-center
-
-            min-h-screen
-            w-full
-            "
-            width={4096}
-            height={2160}
-          ></Image> */}
             <div
               className="
             z-40
@@ -427,25 +413,31 @@ export default function Home() {
                 text-[2.8rem]
                 sm:text-[3rem] 
                 md:text-[3.6rem]
-                lg:text-[3.8rem]
+                lg:text-[3.7rem]
 
                 text-[#EE2860]
+
+                selection:bg-[#ee2860]
+                selection:text-[#ffffff]
                 "
                 >
                   Italo Marsili{' '}
                 </h1>
 
-                <h2
+                <h3
                   className="
                 w-full
-                font-normal
+                font-light
+
+                selection:bg-[#ffffff]
+                selection:text-[#ee2860]
 
                 mobilexs:text-[0.65rem]
                 tabletxs:text-[0.75rem]
                 text-[0.8rem]
                 sm:text-[0.9rem]
                 md:text-[1rem]
-                lg:text-[1.1rem]
+                lg:text-[1rem]
 
                 pl-3
 
@@ -458,15 +450,18 @@ export default function Home() {
                   Latina, e autor do livro best-seller “Os 4 Temperamentos na{' '}
                   <br></br>
                   Educação dos Filhos”.
-                </h2>
-                <h3
+                </h3>
+                <h4
                   className="
                 z-20
-                mt-4
+                mt-3
                 pl-3
                 text-[#EE2860]
                 font-bold
                 
+                selection:bg-[#ffffff]
+                selection:text-[#ee2860]
+
                 text-sm
                 mobilexs:text-base
                 sm:text-base 
@@ -475,7 +470,7 @@ export default function Home() {
                 "
                 >
                   Conheça nossos cursos:
-                </h3>
+                </h4>
                 {/* init carousel */}
                 <>
                   <Swiper
@@ -486,7 +481,8 @@ export default function Home() {
                     }}
                     className="
                     mySwiper
-                    SwiperCursor
+                    cursor-grab
+                    active:cursor-grabbing
 
                     flex
                     flex-col
@@ -518,24 +514,24 @@ export default function Home() {
                     <div className="flex">
                       <SwiperSlide
                         className="
-                      pt-4
-                      ml-4
-                      "
+                        pt-4
+                        ml-4
+                        "
                       >
                         <div
                           className="
-                        border-[1.3px]
-                        border-[#EE2860]
-                        rounded-lg
-                        select-none
-                        outline-none
+                          border-[1.3px]
+                          border-[#EE2860]
+                          rounded-lg
+                          select-none
+                          outline-none
 
-                        hover:shadow-red
-                        hover:border-[#ff4076]
-                        transition 
-                        duration-400 
-                        ease-in-out
-                        "
+                          hover:shadow-red
+                          hover:border-[#ff4076]
+                          transition 
+                          duration-400 
+                          ease-in-out
+                          "
                         >
                           <div
                             className="
@@ -544,95 +540,97 @@ export default function Home() {
                           "
                           >
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
-                              className="outline-none"
+                              className="outline-none text-center"
                             >
                               <img
                                 src="logo-guerrilhaway.png"
                                 alt="Guerrilha Way"
                                 className="
-                              rounded-t-[0.4rem] 
-                              w-full
-                              h-full
-                              SwiperCursor
-                              "
+                                rounded-t-[0.4rem] 
+                                w-full
+                                h-full
+                                cursor-grab
+                                active:cursor-grabbing
+                                "
+                                draggable="false"
                               ></img>
                             </a>
                           </div>
                           <div
                             className="
-                          flex-col
-                          bg-[#060606]
-                          w-full
+                            flex-col
+                            bg-[#060606]
+                            w-full
 
-                          mobilexs:text-left
-                          text-left
-                          sm:text-left
-                          md:text-left
-                          lg:text-left
+                            mobilexs:text-left
+                            text-left
+                            sm:text-left
+                            md:text-left
+                            lg:text-left
 
-                          mobilexs:px-[0.4rem]
-                          px-4
-                          sm:px-4
-                          md:px-4
-                          lg:px-3
-                          
-                          mobilexs:pb-[0.7rem]
-                          pb-4
-                          sm:pb-4
-                          md:pb-4
-                          lg:pb-4
+                            mobilexs:px-[0.4rem]
+                            px-4
+                            sm:px-4
+                            md:px-4
+                            lg:px-3
 
-                          rounded-b-[0.4rem]
-                          "
+                            mobilexs:pb-[0.7rem]
+                            pb-4
+                            sm:pb-4
+                            md:pb-4
+                            lg:pb-4
+
+                            rounded-b-[0.4rem]
+                            "
                           >
                             <h4
                               className="
-                            flex
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2
+                              flex
+                              text-white
+                              font-bold
+                              pb-[0.1rem]
+                              pt-2
 
-                            
 
-                            mobilexs:text-[0.59rem]
-                            text-[0.7rem]
-                            sm:text-[0.76rem]
-                            md:text-[0.8rem]
-                            lg:text-[0.9rem]
-                            "
+
+                              mobilexs:text-[0.59rem]
+                              text-[0.7rem]
+                              sm:text-[0.76rem]
+                              md:text-[0.8rem]
+                              lg:text-[0.9rem]
+                              "
                             >
                               Guerrilha Way
                             </h4>
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
-                            flex
-                            font-light 
-                            text-[#EE2860] 
-                            outline-none
-                            "
+                              flex
+                              font-light 
+                              text-[#EE2860] 
+                              outline-none
+                              "
                             >
                               <p
                                 className="
-                              flex 
-                              border-b-[1px]
-                              border-[#EE2860]
-
-                              mobilexs:text-[0.595rem]
-                              text-[0.7rem]
-                              sm:text-[0.7rem]
-                              md:text-[0.75rem]
-                              lg:text-[0.8rem]
-
-                              hover:text-[#ff4076] 
-                              transition 
-                              duration-450 
-                              ease-in-out
-                              "
+                                flex 
+                                border-b-[1px]
+                                border-[#EE2860]
+                    
+                                mobilexs:text-[0.595rem]
+                                text-[0.7rem]
+                                sm:text-[0.7rem]
+                                md:text-[0.75rem]
+                                lg:text-[0.8rem]
+                    
+                                hover:text-[#ff4076] 
+                                transition 
+                                duration-450 
+                                ease-in-out
+                                "
                               >
                                 Visitar página
                               </p>
@@ -671,7 +669,7 @@ export default function Home() {
                           "
                           >
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="outline-none"
                             >
@@ -679,11 +677,13 @@ export default function Home() {
                                 src="logo-menos50T.png"
                                 alt="Menos 50T"
                                 className="
-                              rounded-t-[0.4rem] 
-                              w-full
-                              h-full
-                              SwiperCursor
-                              "
+                                rounded-t-[0.4rem] 
+                                w-full
+                                h-full
+                                cursor-grab
+                                active:cursor-grabbing
+                                "
+                                draggable="false"
                               ></img>
                             </a>
                           </div>
@@ -732,7 +732,7 @@ export default function Home() {
                               Menos 50T
                             </h4>
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
                             flex
@@ -796,7 +796,7 @@ export default function Home() {
                           "
                           >
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="outline-none"
                             >
@@ -804,11 +804,13 @@ export default function Home() {
                                 src="logo-guerrilhaway.png"
                                 alt="Eixo"
                                 className="
-                              rounded-t-[0.4rem] 
-                              w-full
-                              h-full
-                              SwiperCursor
-                              "
+                                rounded-t-[0.4rem] 
+                                w-full
+                                h-full
+                                cursor-grab
+                                active:cursor-grabbing
+                                "
+                                draggable="false"
                               ></img>
                             </a>
                           </div>
@@ -858,7 +860,7 @@ export default function Home() {
                               <br className=""></br>
                             </h4>
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
                             flex
@@ -922,7 +924,7 @@ export default function Home() {
                           "
                           >
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="outline-none"
                             >
@@ -930,11 +932,13 @@ export default function Home() {
                                 src="logo-guerrilhaway.png"
                                 alt="Os 4 Temperamentos"
                                 className="
-                              rounded-t-[0.4rem] 
-                              w-full
-                              h-full
-                              SwiperCursor
-                              "
+                                rounded-t-[0.4rem] 
+                                w-full
+                                h-full
+                                cursor-grab
+                                active:cursor-grabbing
+                                "
+                                draggable="false"
                               ></img>
                             </a>
                           </div>
@@ -1004,7 +1008,7 @@ export default function Home() {
                               Os 4 Tempera...
                             </h4>
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
                             flex
@@ -1068,7 +1072,7 @@ export default function Home() {
                           "
                           >
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="outline-none"
                             >
@@ -1076,11 +1080,13 @@ export default function Home() {
                                 src="logo-guerrilhaway.png"
                                 alt="Território Humano"
                                 className="
-                              rounded-t-[0.4rem] 
-                              w-full
-                              h-full
-                              SwiperCursor
-                              "
+                                rounded-t-[0.4rem] 
+                                w-full
+                                h-full
+                                cursor-grab
+                                active:cursor-grabbing
+                                "
+                                draggable="false"
                               ></img>
                             </a>
                           </div>
@@ -1150,7 +1156,7 @@ export default function Home() {
                               Território Humano
                             </h4>
                             <a
-                              href="https://italomarsili.com.br"
+                              href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
                             flex
@@ -1249,14 +1255,17 @@ export default function Home() {
           sm:pt-32
           mobilexs:pt-28
           pt-28
+
+          select-none
           "
         >
           Alguma dúvida?
         </h4>
         <a
-          href="https://italomarsili.com.br"
+          href="https://italomarsili.vercel.app"
           target="_blank"
           rel="noopener"
+          draggable="false"
           className="
             flex
             bg-[#25D366]
@@ -1322,7 +1331,11 @@ export default function Home() {
           w-[10rem]
           "
           >
-            <img src="logo-wrl.png" alt="Italo Marsili - Logo"></img>
+            <img
+              src="logo-wrl.png"
+              alt="Italo Marsili - Logo"
+              draggable="false"
+            ></img>
           </div>
           <div
             className="
@@ -1341,9 +1354,10 @@ export default function Home() {
             justify-items-center"
           >
             <a
-              href="https://italomarsili.com.br"
+              href="https://italomarsili.vercel.app"
               target="_blank"
               rel="noopener"
+              draggable="false"
               className="
               lg:w-[1.815rem]
               md:text-[1.75rem]
@@ -1352,14 +1366,19 @@ export default function Home() {
               text-2xl
               text-white
               hover:text-[#EE2860]
-              transition duration-475 ease-in-out
+              transition 
+              duration-475 
+              ease-in-out
               outline-none
               "
             >
               <i className="uil uil-instagram" alt="Instagram"></i>
             </a>
             <a
-              href="#"
+              href="https://italomarsili.vercel.app"
+              target="_blank"
+              rel="noopener"
+              draggable="false"
               className="
               lg:w-[1.815rem]
               md:text-[1.75rem]
@@ -1375,9 +1394,10 @@ export default function Home() {
               <i className="uil uil-facebook-f" alt="Facebook"></i>
             </a>
             <a
-              href="https://italomarsili.com.br"
+              href="https://italomarsili.vercel.app"
               target="_blank"
               rel="noopener"
+              draggable="false"
               className="
               lg:w-[1.815rem]
               md:text-[1.75rem]
@@ -1393,7 +1413,10 @@ export default function Home() {
               <i className="uil uil-twitter-alt" alt="Twitter"></i>
             </a>
             <a
-              href="#"
+              href="https://italomarsili.vercel.app"
+              target="_blank"
+              rel="noopener"
+              draggable="false"
               className="
               lg:w-[1.815rem]
               md:text-[1.75rem]
@@ -1409,9 +1432,10 @@ export default function Home() {
               <i className="uil uil-youtube" alt="Youtube"></i>
             </a>
             <a
-              href="https://italomarsili.com.br"
+              href="https://italomarsili.vercel.app"
               target="_blank"
               rel="noopener"
+              draggable="false"
               className="lg
               :w-[1.815rem]
                 md:text-[1.75rem]
@@ -1525,7 +1549,7 @@ export default function Home() {
                 "
               >
                 <a
-                  href="https://italomarsili.com.br"
+                  href="https://italomarsili.vercel.app"
                   rel="noopener"
                   target="_blank"
                   className="outline-none"
@@ -1535,7 +1559,7 @@ export default function Home() {
                   </h6>
                 </a>
                 <a
-                  href="https://italomarsili.com.br"
+                  href="https://italomarsili.vercel.app"
                   rel="noopener"
                   target="_blank"
                   className="outline-none"
@@ -1545,7 +1569,7 @@ export default function Home() {
                   </h6>
                 </a>
                 <a
-                  href="https://italomarsili.com.br"
+                  href="https://italomarsili.vercel.app"
                   rel="noopener"
                   target="_blank"
                   className="outline-none"

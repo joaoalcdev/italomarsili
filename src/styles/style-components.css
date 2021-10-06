@@ -8,17 +8,3 @@
   width: 10px;
   background-color: #333333;
 }
-h1::selection {
-  background-color: #ee2860;
-  color: white;
-}
-::selection {
-  background-color: white;
-  color: #ee2860;
-}
-.SwiperCursor {
-  cursor: grab;
-}
-.SwiperCursor:active {
-  cursor: grabbing;
-}
