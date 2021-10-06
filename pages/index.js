@@ -306,6 +306,7 @@ export default function Home() {
               priority="eager"
               quality={80}
               draggable="false"
+              className=""
             />
           </div>
 
@@ -836,7 +837,7 @@ export default function Home() {
                             "
                             >
                               Eixo
-                              <br></br>
+                              <br className=""></br>
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -1171,7 +1172,7 @@ export default function Home() {
                     </div>
                     {/* swiper 05 (slider) */}
                     {/* swiper 06 (slider) */}
-                    <div>
+                    <div className="">
                       <SwiperSlide
                         className="
                       "
