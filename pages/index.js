@@ -8,16 +8,18 @@ import profilePic from '../public/italomarsili-background.webp'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
-import 'swiper/css/bundle'
+import 'swiper/css/keyboard'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 import 'swiper/css'
 
 // import Swiper core and required modules
-import SwiperCore, { Keyboard, Pagination, Navigation, Scrollbar } from 'swiper'
+import SwiperCore, { Keyboard, Pagination, Navigation } from 'swiper'
 
 // install Swiper modules
 
 export default function Home() {
-  SwiperCore.use([Keyboard, Navigation, Pagination, Scrollbar])
+  SwiperCore.use([Keyboard, Pagination, Navigation])
   return (
     <div className="bg-[#181818] font-sans">
       <html lang="en">
@@ -306,27 +308,6 @@ export default function Home() {
               priority="eager"
               quality={80}
               draggable="false"
-              className="
-              bg-no-repeat
-              bg-cover
-              bg-center
-  
-              mobilexs:bg-no-repeat
-              mobilexs:bg-cover
-              mobilexs:bg-customxs
-  
-              sm:bg-no-repeat
-              sm:bg-cover
-              sm:bg-center
-  
-              md:bg-no-repeat
-              md:bg-cover
-              md:bg-center
-  
-              lg:bg-no-repeat
-              lg:bg-cover
-              lg:bg-custom
-              "
             />
           </div>
 
@@ -857,7 +838,7 @@ export default function Home() {
                             "
                             >
                               Eixo
-                              <br className=""></br>
+                              <br></br>
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -1192,7 +1173,7 @@ export default function Home() {
                     </div>
                     {/* swiper 05 (slider) */}
                     {/* swiper 06 (slider) */}
-                    <div className="">
+                    <div>
                       <SwiperSlide
                         className="
                       "
