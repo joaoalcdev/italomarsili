@@ -16,7 +16,8 @@ module.exports = {
       },
       boxShadow: {
         green: '0px 0px 50px 10px rgba(24, 230, 100, 0.25)',
-        red: '0px 0px 10px 10px rgba(255, 64, 118, 0.25)'
+        redHover: '0px 0px 15px 10px rgba(255, 64, 118, 0.25)',
+        redActive: '0px 0px 15px 10px rgba(255, 64, 118, 0.25)'
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]

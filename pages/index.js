@@ -455,9 +455,10 @@ export default function Home() {
                     transition 
                     duration-400 
                     ease-in-out
+                    
                     "
                   >
-                    {/* swiper 01 (slider) */}
+                    {/* swiper (slider) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
@@ -467,35 +468,39 @@ export default function Home() {
                       >
                         <div
                           className="
-                          border-[1.3px]
+                          border-[1.125px]
                           border-[#EE2860]
                           rounded-lg
                           select-none
                           outline-none
-
-                          hover:shadow-red
+                          
+                          hover:shadow-redHover
+                          active:shadow-redActive
                           hover:border-[#ff4076]
+                          active:border-[#971d40]
+                          active:z-50
                           transition 
                           duration-400 
                           ease-in-out
+                          z-40
                           "
                         >
                           <div
                             className="
-                          bg-[#060102] 
-                          rounded-t-lg
-                          "
+                            bg-[#060102] 
+                            rounded-t-lg
+                            w-full
+                            "
                           >
                             <a
                               href="https://italomarsili.vercel.app"
                               rel="noopener"
-                              className="outline-none text-center"
+                              className="outline-none"
                             >
                               <img
                                 src="logo-guerrilhaway.webp"
                                 alt="Guerrilha Way"
                                 className="
-                                rounded-t-[0.4rem] 
                                 w-full
                                 h-full
                                 cursor-grab
@@ -525,7 +530,7 @@ export default function Home() {
                             md:pb-4
                             lg:pb-4
 
-                            rounded-b-[0.4rem]
+                            rounded-b-[0.43rem]
                             "
                           >
                             <h4
@@ -568,6 +573,7 @@ export default function Home() {
                                 lg:text-[0.8rem]
                     
                                 hover:text-[#ff4076] 
+                                active:text-[#ce2152] 
                                 transition 
                                 duration-450 
                                 ease-in-out
@@ -580,33 +586,37 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper 01 (slider) */}
-                    {/* swiper 02 (slider) */}
+                    {/* swiper (slider) */}
+
+                    {/* swiper (slider) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
-                      pt-4
-                      "
+                        pt-4
+                        "
                       >
                         <div
                           className="
-                        border-[1.3px]
-                        border-[#EE2860]
-                        rounded-lg
-                        select-none
-                        outline-none
-
-                        hover:shadow-red
-                        hover:border-[#ff4076]
-                        transition 
-                        duration-400 
-                        ease-in-out
-                        "
+                          border-[1.125px]
+                          border-[#EE2860]
+                          rounded-lg
+                          select-none
+                          outline-none
+                          
+                          hover:shadow-redHover
+                          active:shadow-redActive
+                          hover:border-[#ff4076]
+                          active:border-[#971d40]
+                          transition 
+                          duration-400 
+                          ease-in-out
+                          "
                         >
                           <div
                             className="
                             bg-[#060102] 
                             rounded-t-lg
+                            w-full
                             "
                           >
                             <a
@@ -618,7 +628,6 @@ export default function Home() {
                                 src="logo-guerrilhaway.webp"
                                 alt="Guerrilha Way"
                                 className="
-                                rounded-t-[0.4rem] 
                                 w-full
                                 h-full
                                 cursor-grab
@@ -630,30 +639,26 @@ export default function Home() {
                           </div>
                           <div
                             className="
-                          flex-col
-                          bg-[#060606]
-                          w-full
+                            flex-col
+                            bg-[#060606]
+                            w-full
 
-                          mobilexs:text-left
-                          text-left
-                          sm:text-left
-                          md:text-left
-                          lg:text-left
+                            text-left
 
-                          mobilexs:px-[0.4rem]
-                          px-4
-                          sm:px-4
-                          md:px-4
-                          lg:px-3
-                          
-                          mobilexs:pb-[0.7rem]
-                          pb-4
-                          sm:pb-4
-                          md:pb-4
-                          lg:pb-4
+                            mobilexs:px-[0.4rem]
+                            px-4
+                            sm:px-4
+                            md:px-4
+                            lg:px-3
 
-                          rounded-b-[0.4rem]
-                          "
+                            mobilexs:pb-[0.7rem]
+                            pb-4
+                            sm:pb-4
+                            md:pb-4
+                            lg:pb-4
+
+                            rounded-b-[0.43rem]
+                            "
                           >
                             <h4
                               className="
@@ -661,41 +666,45 @@ export default function Home() {
                               text-white
                               font-bold
                               pb-[0.1rem]
-                              pt-2                            
-                    
-                              mobilexs:text-[0.68rem]
+                              pt-2
+
+                              mobilexs:text-[0.59rem]
                               text-[0.7rem]
                               sm:text-[0.76rem]
                               md:text-[0.8rem]
                               lg:text-[0.9rem]
                               "
                             >
-                              Menos 50T
+                              Guerrilha Way
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
-                            flex
-                            font-light 
-                            text-[#EE2860] 
-                            outline-none
-                            "
+                              flex
+                              font-light 
+                              text-[#EE2860] 
+                              outline-none
+                              "
                             >
                               <p
                                 className="
-                              flex 
-                              border-b-[1px]
-                              border-[#EE2860]
-
-                              mobilexs:text-[0.595rem]
-                              text-[0.7rem]
-                              sm:text-[0.7rem]
-                              md:text-[0.75rem]
-                              lg:text-[0.8rem]
-
-                              hover:text-[#ff4076]
-                              "
+                                flex 
+                                border-b-[1px]
+                                border-[#EE2860]
+                    
+                                mobilexs:text-[0.595rem]
+                                text-[0.7rem]
+                                sm:text-[0.7rem]
+                                md:text-[0.75rem]
+                                lg:text-[0.8rem]
+                    
+                                hover:text-[#ff4076] 
+                                active:text-[#ce2152] 
+                                transition 
+                                duration-450 
+                                ease-in-out
+                                "
                               >
                                 Visitar página
                               </p>
@@ -704,34 +713,38 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper 02 (slider) */}
-                    {/* swiper 03 (slider) */}
+                    {/* swiper (slider) */}
+
+                    {/* swiper (slider) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
-                      pt-4
-                      "
+                        pt-4
+                        "
                       >
                         <div
                           className="
-                        border-[1.3px]
-                        border-[#EE2860]
-                        rounded-lg
-                        select-none
-                        outline-none
-
-                        hover:shadow-red
-                        hover:border-[#ff4076]
-                        transition 
-                        duration-400 
-                        ease-in-out
-                        "
+                          border-[1.125px]
+                          border-[#EE2860]
+                          rounded-lg
+                          select-none
+                          outline-none
+                          
+                          hover:shadow-redHover
+                          active:shadow-redActive
+                          hover:border-[#ff4076]
+                          active:border-[#971d40]
+                          transition 
+                          duration-400 
+                          ease-in-out
+                          "
                         >
                           <div
                             className="
-                          bg-[#060102] 
-                          rounded-t-lg
-                          "
+                            bg-[#060102] 
+                            rounded-t-lg
+                            w-full
+                            "
                           >
                             <a
                               href="https://italomarsili.vercel.app"
@@ -740,9 +753,8 @@ export default function Home() {
                             >
                               <img
                                 src="logo-guerrilhaway.webp"
-                                alt="Eixo"
+                                alt="Guerrilha Way"
                                 className="
-                                rounded-t-[0.4rem] 
                                 w-full
                                 h-full
                                 cursor-grab
@@ -754,73 +766,72 @@ export default function Home() {
                           </div>
                           <div
                             className="
-                          flex-col
-                          bg-[#060606]
-                          w-full
+                            flex-col
+                            bg-[#060606]
+                            w-full
 
-                          mobilexs:text-left
-                          text-left
-                          sm:text-left
-                          md:text-left
-                          lg:text-left
+                            text-left
 
-                          mobilexs:px-[0.4rem]
-                          px-4
-                          sm:px-4
-                          md:px-4
-                          lg:px-3
-                          
-                          mobilexs:pb-[0.7rem]
-                          pb-4
-                          sm:pb-4
-                          md:pb-4
-                          lg:pb-4
+                            mobilexs:px-[0.4rem]
+                            px-4
+                            sm:px-4
+                            md:px-4
+                            lg:px-3
 
-                          rounded-b-[0.4rem]
-                          "
+                            mobilexs:pb-[0.7rem]
+                            pb-4
+                            sm:pb-4
+                            md:pb-4
+                            lg:pb-4
+
+                            rounded-b-[0.43rem]
+                            "
                           >
                             <h4
                               className="
-                            flex
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2
+                              flex
+                              text-white
+                              font-bold
+                              pb-[0.1rem]
+                              pt-2
 
-                            mobilexs:text-[0.68rem]
-                            text-[0.7rem]
-                            sm:text-[0.76rem]
-                            md:text-[0.8rem]
-                            lg:text-[0.9rem]
-                            "
+                              mobilexs:text-[0.59rem]
+                              text-[0.7rem]
+                              sm:text-[0.76rem]
+                              md:text-[0.8rem]
+                              lg:text-[0.9rem]
+                              "
                             >
-                              Eixo
-                              <br></br>
+                              Guerrilha Way
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
-                            flex
-                            font-light 
-                            text-[#EE2860] 
-                            outline-none
-                            "
+                              flex
+                              font-light 
+                              text-[#EE2860] 
+                              outline-none
+                              "
                             >
                               <p
                                 className="
-                              flex 
-                              border-b-[1px]
-                              border-[#EE2860]
-
-                              mobilexs:text-[0.595rem]
-                              text-[0.7rem]
-                              sm:text-[0.7rem]
-                              md:text-[0.75rem]
-                              lg:text-[0.8rem]
-
-                              hover:text-[#ff4076]
-                              "
+                                flex 
+                                border-b-[1px]
+                                border-[#EE2860]
+                    
+                                mobilexs:text-[0.595rem]
+                                text-[0.7rem]
+                                sm:text-[0.7rem]
+                                md:text-[0.75rem]
+                                lg:text-[0.8rem]
+                    
+                                hover:text-[#ff4076] 
+                                active:text-[#ce2152] 
+                                transition 
+                                duration-450 
+                                ease-in-out
+                                "
                               >
                                 Visitar página
                               </p>
@@ -829,34 +840,38 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper 03 (slider) */}
-                    {/* swiper 04 (slider) */}
+                    {/* swiper (slider) */}
+
+                    {/* swiper (slider) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
-                      pt-4
-                      "
+                        pt-4
+                        "
                       >
                         <div
                           className="
-                        border-[1.3px]
-                        border-[#EE2860]
-                        rounded-lg
-                        select-none
-                        outline-none
-
-                        hover:shadow-red
-                        hover:border-[#ff4076]
-                        transition 
-                        duration-400 
-                        ease-in-out
-                        "
+                          border-[1.125px]
+                          border-[#EE2860]
+                          rounded-lg
+                          select-none
+                          outline-none
+                          
+                          hover:shadow-redHover
+                          active:shadow-redActive
+                          hover:border-[#ff4076]
+                          active:border-[#971d40]
+                          transition 
+                          duration-400 
+                          ease-in-out
+                          "
                         >
                           <div
                             className="
-                          bg-[#060102] 
-                          rounded-t-lg
-                          "
+                            bg-[#060102] 
+                            rounded-t-lg
+                            w-full
+                            "
                           >
                             <a
                               href="https://italomarsili.vercel.app"
@@ -865,9 +880,8 @@ export default function Home() {
                             >
                               <img
                                 src="logo-guerrilhaway.webp"
-                                alt="Os 4 Temperamentos"
+                                alt="Guerrilha Way"
                                 className="
-                                rounded-t-[0.4rem] 
                                 w-full
                                 h-full
                                 cursor-grab
@@ -879,93 +893,72 @@ export default function Home() {
                           </div>
                           <div
                             className="
-                          flex-col
-                          bg-[#060606]
-                          w-full
+                            flex-col
+                            bg-[#060606]
+                            w-full
 
-                          mobilexs:text-left
-                          text-left
-                          sm:text-left
-                          md:text-left
-                          lg:text-left
+                            text-left
 
-                          mobilexs:px-[0.4rem]
-                          px-4
-                          sm:px-4
-                          md:px-4
-                          lg:px-3
-                          
-                          mobilexs:pb-[0.7rem]
-                          pb-4
-                          sm:pb-4
-                          md:pb-4
-                          lg:pb-4
+                            mobilexs:px-[0.4rem]
+                            px-4
+                            sm:px-4
+                            md:px-4
+                            lg:px-3
 
-                          rounded-b-[0.4rem]
-                          "
+                            mobilexs:pb-[0.7rem]
+                            pb-4
+                            sm:pb-4
+                            md:pb-4
+                            lg:pb-4
+
+                            rounded-b-[0.43rem]
+                            "
                           >
                             <h4
                               className="
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2
+                              flex
+                              text-white
+                              font-bold
+                              pb-[0.1rem]
+                              pt-2
 
-                            
-                            mobilexs:text-[0.68rem]
-                            tabletxs:flex
-                            tabletxs:text-[0.7rem]
-                            hidden
-                            sm:hidden
-                            md:hidden
-                            lg:hidden
-                            "
+                              mobilexs:text-[0.59rem]
+                              text-[0.7rem]
+                              sm:text-[0.76rem]
+                              md:text-[0.8rem]
+                              lg:text-[0.9rem]
+                              "
                             >
-                              Os 4 Tempe...
-                            </h4>
-                            <h4
-                              className="
-                            flex
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2
-
-                            
-                            mobilexs:hidden
-                            tabletxs:hidden
-                            text-[0.7rem]
-                            sm:text-[0.76rem]
-                            md:text-[0.8rem]
-                            lg:text-[0.9rem]
-                            "
-                            >
-                              Os 4 Tempera...
+                              Guerrilha Way
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
-                            flex
-                            font-light 
-                            text-[#EE2860] 
-                            outline-none
-                            "
+                              flex
+                              font-light 
+                              text-[#EE2860] 
+                              outline-none
+                              "
                             >
                               <p
                                 className="
-                              flex 
-                              border-b-[1px]
-                              border-[#EE2860]
-
-                              mobilexs:text-[0.595rem]
-                              text-[0.7rem]
-                              sm:text-[0.7rem]
-                              md:text-[0.75rem]
-                              lg:text-[0.8rem]
-
-                              hover:text-[#ff4076]
-                              "
+                                flex 
+                                border-b-[1px]
+                                border-[#EE2860]
+                    
+                                mobilexs:text-[0.595rem]
+                                text-[0.7rem]
+                                sm:text-[0.7rem]
+                                md:text-[0.75rem]
+                                lg:text-[0.8rem]
+                    
+                                hover:text-[#ff4076] 
+                                active:text-[#ce2152] 
+                                transition 
+                                duration-450 
+                                ease-in-out
+                                "
                               >
                                 Visitar página
                               </p>
@@ -974,34 +967,38 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper 04 (slider) */}
-                    {/* swiper 05 (slider) */}
+                    {/* swiper (slider) */}
+
+                    {/* swiper (slider) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
-                      pt-4
-                      "
+                        pt-4
+                        "
                       >
                         <div
                           className="
-                        border-[1.4px]
-                        border-[#EE2860]
-                        rounded-lg
-                        select-none
-                        outline-none
-
-                        hover:shadow-red
-                        hover:border-[#ff4076]
-                        transition 
-                        duration-400 
-                        ease-in-out
-                        "
+                          border-[1.125px]
+                          border-[#EE2860]
+                          rounded-lg
+                          select-none
+                          outline-none
+                          
+                          hover:shadow-redHover
+                          active:shadow-redActive
+                          hover:border-[#ff4076]
+                          active:border-[#971d40]
+                          transition 
+                          duration-400 
+                          ease-in-out
+                          "
                         >
                           <div
                             className="
-                          bg-[#060102] 
-                          rounded-t-lg
-                          "
+                            bg-[#060102] 
+                            rounded-t-lg
+                            w-full
+                            "
                           >
                             <a
                               href="https://italomarsili.vercel.app"
@@ -1010,9 +1007,8 @@ export default function Home() {
                             >
                               <img
                                 src="logo-guerrilhaway.webp"
-                                alt="Território Humano"
+                                alt="Guerrilha Way"
                                 className="
-                                rounded-t-[0.4rem] 
                                 w-full
                                 h-full
                                 cursor-grab
@@ -1024,93 +1020,72 @@ export default function Home() {
                           </div>
                           <div
                             className="
-                          flex-col
-                          bg-[#060606]
-                          w-full
+                            flex-col
+                            bg-[#060606]
+                            w-full
 
-                          mobilexs:text-left
-                          text-left
-                          sm:text-left
-                          md:text-left
-                          lg:text-left
+                            text-left
 
-                          mobilexs:px-[0.4rem]
-                          px-4
-                          sm:px-4
-                          md:px-4
-                          lg:px-3
-                          
-                          mobilexs:pb-[0.7rem]
-                          pb-4
-                          sm:pb-4
-                          md:pb-4
-                          lg:pb-4
+                            mobilexs:px-[0.4rem]
+                            px-4
+                            sm:px-4
+                            md:px-4
+                            lg:px-3
 
-                          rounded-b-[0.4rem]
-                          "
+                            mobilexs:pb-[0.7rem]
+                            pb-4
+                            sm:pb-4
+                            md:pb-4
+                            lg:pb-4
+
+                            rounded-b-[0.43rem]
+                            "
                           >
                             <h4
                               className="
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2
+                              flex
+                              text-white
+                              font-bold
+                              pb-[0.1rem]
+                              pt-2
 
-                            
-                            mobilexs:text-[0.68rem]
-                            tabletxs:flex
-                            tabletxs:text-[0.7rem]
-                            hidden
-                            sm:hidden
-                            md:hidden
-                            lg:hidden
-                            "
+                              mobilexs:text-[0.59rem]
+                              text-[0.7rem]
+                              sm:text-[0.76rem]
+                              md:text-[0.8rem]
+                              lg:text-[0.9rem]
+                              "
                             >
-                              Território Hu...
-                            </h4>
-                            <h4
-                              className="
-                            flex
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2
-
-                            
-                            mobilexs:hidden
-                            tabletxs:hidden
-                            text-[0.7rem]
-                            sm:text-[0.76rem]
-                            md:text-[0.8rem]
-                            lg:text-[0.9rem]
-                            "
-                            >
-                              Território Humano
+                              Guerrilha Way
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
                               rel="noopener"
                               className="
-                            flex
-                            font-light 
-                            text-[#EE2860] 
-                            outline-none
-                            "
+                              flex
+                              font-light 
+                              text-[#EE2860] 
+                              outline-none
+                              "
                             >
                               <p
                                 className="
-                              flex 
-                              border-b-[1px]
-                              border-[#EE2860]
-
-                              mobilexs:text-[0.595rem]
-                              text-[0.7rem]
-                              sm:text-[0.7rem]
-                              md:text-[0.75rem]
-                              lg:text-[0.8rem]
-
-                              hover:text-[#ff4076]
-                              "
+                                flex 
+                                border-b-[1px]
+                                border-[#EE2860]
+                    
+                                mobilexs:text-[0.595rem]
+                                text-[0.7rem]
+                                sm:text-[0.7rem]
+                                md:text-[0.75rem]
+                                lg:text-[0.8rem]
+                    
+                                hover:text-[#ff4076] 
+                                active:text-[#ce2152] 
+                                transition 
+                                duration-450 
+                                ease-in-out
+                                "
                               >
                                 Visitar página
                               </p>
@@ -1119,7 +1094,9 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper 05 (slider) */}
+                    {/* swiper (slider) */}
+
+
                     {/* swiper 06 (slider) */}
                     <div>
                       <SwiperSlide></SwiperSlide>
