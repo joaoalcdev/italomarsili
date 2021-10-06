@@ -259,33 +259,7 @@ export default function Home() {
 
       {/* Initial Section */}
       <section>
-        <div
-          className="
-          bg-no-repeat
-          bg-cover
-          bg-center
-
-          mobilexs:bg-no-repeat
-          mobilexs:bg-cover
-          mobilexs:bg-customxs
-
-          sm:bg-no-repeat
-          sm:bg-cover
-          sm:bg-center
-
-          md:bg-no-repeat
-          md:bg-cover
-          md:bg-center
-
-          lg:bg-no-repeat
-          lg:bg-cover
-          lg:bg-center
-
-          relative
-
-          min-h-screen
-        "
-        >
+        <div>
           <div
             className="
             flex
@@ -315,14 +289,6 @@ export default function Home() {
             className="
             min-h-screen 
 
-            mobilexs:flex
-            mobilexs:flex-row
-            sm:flex 
-            sm:flex-row 
-            md:flex 
-            md:flex-row 
-            lg:flex 
-            lg:flex-row 
             flex 
             flex-row
 
@@ -489,6 +455,9 @@ export default function Home() {
                     lg:h-[17rem]
                     
                     text-white
+                    transition 
+                    duration-400 
+                    ease-in-out
                     "
                   >
                     {/* swiper 01 (slider) */}
@@ -545,11 +514,7 @@ export default function Home() {
                             bg-[#060606]
                             w-full
 
-                            mobilexs:text-left
                             text-left
-                            sm:text-left
-                            md:text-left
-                            lg:text-left
 
                             mobilexs:px-[0.4rem]
                             px-4
@@ -573,8 +538,6 @@ export default function Home() {
                               font-bold
                               pb-[0.1rem]
                               pt-2
-
-
 
                               mobilexs:text-[0.59rem]
                               text-[0.7rem]
@@ -645,9 +608,9 @@ export default function Home() {
                         >
                           <div
                             className="
-                          bg-[#060102] 
-                          rounded-t-lg
-                          "
+                            bg-[#060102] 
+                            rounded-t-lg
+                            "
                           >
                             <a
                               href="https://italomarsili.vercel.app"
@@ -734,10 +697,7 @@ export default function Home() {
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
 
-                              hover:text-[#ff4076] 
-                              transition 
-                              duration-450 
-                              ease-in-out
+                              hover:text-[#ff4076]
                               "
                               >
                                 Visitar página
@@ -862,10 +822,7 @@ export default function Home() {
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
 
-                              hover:text-[#ff4076] 
-                              transition 
-                              duration-450 
-                              ease-in-out
+                              hover:text-[#ff4076]
                               "
                               >
                                 Visitar página
@@ -1010,10 +967,7 @@ export default function Home() {
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
 
-                              hover:text-[#ff4076] 
-                              transition 
-                              duration-450 
-                              ease-in-out
+                              hover:text-[#ff4076]
                               "
                               >
                                 Visitar página
@@ -1158,10 +1112,7 @@ export default function Home() {
                               md:text-[0.75rem]
                               lg:text-[0.8rem]
 
-                              hover:text-[#ff4076] 
-                              transition 
-                              duration-450 
-                              ease-in-out
+                              hover:text-[#ff4076]
                               "
                               >
                                 Visitar página
@@ -1174,10 +1125,7 @@ export default function Home() {
                     {/* swiper 05 (slider) */}
                     {/* swiper 06 (slider) */}
                     <div>
-                      <SwiperSlide
-                        className="
-                      "
-                      ></SwiperSlide>
+                      <SwiperSlide></SwiperSlide>
                     </div>
                     {/* swiper 06 (slider) */}
                   </Swiper>
