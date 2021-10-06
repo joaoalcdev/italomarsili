@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Image from 'next/image'
 
-import profilePic from '../public/italomarsili-background.webp'
+import profilePic from '../public/italo-bg.webp'
 
 // eslint-disable-next-line
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -251,6 +251,7 @@ export default function Home() {
           <link
             rel="stylesheet"
             href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+            media="all"
           ></link>
         </Head>
       </html>
@@ -304,7 +305,7 @@ export default function Home() {
               objectFit="cover"
               placeholder="blur"
               priority="eager"
-              quality={80}
+              quality={75}
               draggable="false"
             />
           </div>
@@ -437,10 +438,10 @@ export default function Home() {
                   pl-3
                   text-[#EE2860]
                   font-bold
-                  
+
                   selection:bg-[#ffffff]
                   selection:text-[#ee2860]
-    
+
                   text-sm
                   mobilexs:text-base
                   sm:text-base 
