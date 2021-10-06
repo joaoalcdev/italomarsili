@@ -445,7 +445,7 @@ export default function Home() {
                 text-[0.8rem]
                 sm:text-[0.9rem]
                 md:text-[1rem]
-                lg:text-[1rem]
+                lg:text-[1.1rem]
 
                 pl-3
 
@@ -467,11 +467,11 @@ export default function Home() {
                 text-[#EE2860]
                 font-bold
                 
-                text-lg
-                mobilexs:text-lg
-                sm:text-lg 
-                md:text-lg 
-                lg:text-xl
+                text-sm
+                mobilexs:text-base
+                sm:text-base 
+                md:text-base 
+                lg:text-lg
                 "
                 >
                   Conheça nossos cursos:
@@ -485,34 +485,34 @@ export default function Home() {
                       enabled: true
                     }}
                     className="
-                  mySwiper
-                  SwiperCursor
+                    mySwiper
+                    SwiperCursor
 
-                  flex
-                  flex-col
+                    flex
+                    flex-col
 
-                  mobilexs:flex-col
+                    mobilexs:flex-col
 
-                  mobilexs:w-[23rem]
-                  mobilexs:h-[16rem]
-                  
-                  w-[30rem]
-                  h-[16rem]
+                    mobilexs:w-[23rem]
+                    mobilexs:h-[16rem]
+                    
+                    w-[30rem]
+                    h-[16rem]
 
-                  sm:flex-col
-                  sm:w-[32rem]
-                  sm:h-[16rem]
+                    sm:flex-col
+                    sm:w-[32rem]
+                    sm:h-[16rem]
 
-                  md:flex-col
-                  md:w-[34rem]
-                  md:h-[16rem]
+                    md:flex-col
+                    md:w-[34rem]
+                    md:h-[16rem]
 
-                  lg:flex-col
-                  lg:w-[36rem]
-                  lg:h-[17rem]
-                  
-                  text-white
-                  "
+                    lg:flex-col
+                    lg:w-[36rem]
+                    lg:h-[17rem]
+                    
+                    text-white
+                    "
                   >
                     {/* swiper 01 (slider) */}
                     <div className="flex">
@@ -587,7 +587,7 @@ export default function Home() {
                           rounded-b-[0.4rem]
                           "
                           >
-                            <h3
+                            <h4
                               className="
                             flex
                             text-white
@@ -605,7 +605,7 @@ export default function Home() {
                             "
                             >
                               Guerrilha Way
-                            </h3>
+                            </h4>
                             <a
                               href="https://italomarsili.com.br"
                               rel="noopener"
@@ -714,23 +714,23 @@ export default function Home() {
                           rounded-b-[0.4rem]
                           "
                           >
-                            <h3
+                            <h4
                               className="
-                            flex
-                            text-white
-                            font-bold
-                            pb-[0.1rem]
-                            pt-2                            
-
-                            mobilexs:text-[0.68rem]
-                            text-[0.7rem]
-                            sm:text-[0.76rem]
-                            md:text-[0.8rem]
-                            lg:text-[0.9rem]
-                            "
+                              flex
+                              text-white
+                              font-bold
+                              pb-[0.1rem]
+                              pt-2                            
+                    
+                              mobilexs:text-[0.68rem]
+                              text-[0.7rem]
+                              sm:text-[0.76rem]
+                              md:text-[0.8rem]
+                              lg:text-[0.9rem]
+                              "
                             >
                               Menos 50T
-                            </h3>
+                            </h4>
                             <a
                               href="https://italomarsili.com.br"
                               rel="noopener"
@@ -839,7 +839,7 @@ export default function Home() {
                           rounded-b-[0.4rem]
                           "
                           >
-                            <h3
+                            <h4
                               className="
                             flex
                             text-white
@@ -856,7 +856,7 @@ export default function Home() {
                             >
                               Eixo
                               <br className=""></br>
-                            </h3>
+                            </h4>
                             <a
                               href="https://italomarsili.com.br"
                               rel="noopener"
@@ -965,7 +965,7 @@ export default function Home() {
                           rounded-b-[0.4rem]
                           "
                           >
-                            <h3
+                            <h4
                               className="
                             text-white
                             font-bold
@@ -983,8 +983,8 @@ export default function Home() {
                             "
                             >
                               Os 4 Tempe...
-                            </h3>
-                            <h3
+                            </h4>
+                            <h4
                               className="
                             flex
                             text-white
@@ -1002,7 +1002,7 @@ export default function Home() {
                             "
                             >
                               Os 4 Tempera...
-                            </h3>
+                            </h4>
                             <a
                               href="https://italomarsili.com.br"
                               rel="noopener"
@@ -1111,7 +1111,7 @@ export default function Home() {
                           rounded-b-[0.4rem]
                           "
                           >
-                            <h3
+                            <h4
                               className="
                             text-white
                             font-bold
@@ -1129,8 +1129,8 @@ export default function Home() {
                             "
                             >
                               Território Hu...
-                            </h3>
-                            <h3
+                            </h4>
+                            <h4
                               className="
                             flex
                             text-white
@@ -1148,7 +1148,7 @@ export default function Home() {
                             "
                             >
                               Território Humano
-                            </h3>
+                            </h4>
                             <a
                               href="https://italomarsili.com.br"
                               rel="noopener"
