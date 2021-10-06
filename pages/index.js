@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import profilePic from '../assets/images/italo-bg.webp'
 
-// eslint-disable-next-line
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
@@ -12,11 +11,9 @@ import 'swiper/css/navigation'
 import 'swiper/css/keyboard'
 import 'swiper/css'
 
-// import Swiper core and required modules
 import SwiperCore, { Keyboard, Navigation } from 'swiper'
 
 // install Swiper modules
-
 export default function Home() {
   SwiperCore.use([Keyboard, Navigation])
   return (
