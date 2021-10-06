@@ -2,22 +2,23 @@ import Head from 'next/head'
 
 import Image from 'next/image'
 
-import profilePic from '../public/italo-bg.webp'
+import profilePic from '../assets/images/italo-bg.webp'
 
 // eslint-disable-next-line
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
-import 'swiper/css/bundle'
+import 'swiper/css/navigation'
+import 'swiper/css/keyboard'
 import 'swiper/css'
 
 // import Swiper core and required modules
-import SwiperCore, { Keyboard, Pagination, Navigation, Scrollbar } from 'swiper'
+import SwiperCore, { Keyboard, Navigation } from 'swiper'
 
 // install Swiper modules
 
 export default function Home() {
-  SwiperCore.use([Keyboard, Navigation, Pagination, Scrollbar])
+  SwiperCore.use([Keyboard, Navigation])
   return (
     <div className="bg-[#181818] font-sans">
       <html lang="en">
@@ -837,7 +838,7 @@ export default function Home() {
                             "
                             >
                               Eixo
-                              <br className=""></br>
+                              <br></br>
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -1172,7 +1173,7 @@ export default function Home() {
                     </div>
                     {/* swiper 05 (slider) */}
                     {/* swiper 06 (slider) */}
-                    <div className="">
+                    <div>
                       <SwiperSlide
                         className="
                       "
