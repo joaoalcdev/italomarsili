@@ -8,18 +8,16 @@ import profilePic from '../public/italomarsili-background.webp'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
-import 'swiper/css/keyboard'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+import 'swiper/css/bundle'
 import 'swiper/css'
 
 // import Swiper core and required modules
-import SwiperCore, { Keyboard, Pagination, Navigation } from 'swiper'
+import SwiperCore, { Keyboard, Pagination, Navigation, Scrollbar } from 'swiper'
 
 // install Swiper modules
 
 export default function Home() {
-  SwiperCore.use([Keyboard, Pagination, Navigation])
+  SwiperCore.use([Keyboard, Navigation, Pagination, Scrollbar])
   return (
     <div className="bg-[#181818] font-sans">
       <html lang="en">
