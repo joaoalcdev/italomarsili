@@ -170,71 +170,71 @@ export default function Home() {
           <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="favicon-64x64.png"
+            href="favicon-64x64.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="apple-touch-icon-60x60.png"
+            href="apple-touch-icon-60x60.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="apple-touch-icon-72x72.png"
+            href="apple-touch-icon-72x72.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="apple-touch-icon-76x76.png"
+            href="apple-touch-icon-76x76.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="apple-touch-icon-114x114.png"
+            href="apple-touch-icon-114x114.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="apple-touch-icon-120x120.png"
+            href="apple-touch-icon-120x120.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="apple-touch-icon-144x144.png"
+            href="apple-touch-icon-144x144.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="apple-touch-icon-152x152.png"
+            href="apple-touch-icon-152x152.webp"
           ></link>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="apple-touch-icon-180x180.png"
+            href="apple-touch-icon-180x180.webp"
           ></link>
           <link
             rel="icon"
-            type="image/png"
+            type="image/webp"
             sizes="32x32"
-            href="favicon-32x32.png"
+            href="favicon-32x32.webp"
           ></link>
           <link
             rel="icon"
-            type="image/png"
+            type="image/webp"
             sizes="194x194"
-            href="favicon-194x194.png"
+            href="favicon-194x194.webp"
           ></link>
           <link
             rel="icon"
-            type="image/png"
+            type="image/webp"
             sizes="192x192"
-            href="android-chrome-192x192.png"
+            href="android-chrome-192x192.webp"
           ></link>
           <link
             rel="icon"
-            type="image/png"
+            type="image/webp"
             sizes="16x16"
-            href="favicon-16x16.png"
+            href="favicon-16x16.webp"
           ></link>
           <link
             rel="mask-icon"
@@ -243,7 +243,7 @@ export default function Home() {
           ></link>
           <meta
             name="msapplication-TileImage"
-            content="mstile-144x144.png"
+            content="mstile-144x144.webp"
           ></meta>
           <meta name="msapplication-config" content="browserconfig.xml"></meta>
           {/*  Manifest  */}
@@ -526,7 +526,7 @@ export default function Home() {
                               className="outline-none text-center"
                             >
                               <img
-                                src="logo-guerrilhaway.png"
+                                src="logo-guerrilhaway.webp"
                                 alt="Guerrilha Way"
                                 className="
                                 rounded-t-[0.4rem] 
@@ -655,8 +655,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-menos50T.png"
-                                alt="Menos 50T"
+                                src="logo-guerrilhaway.webp"
+                                alt="Guerrilha Way"
                                 className="
                                 rounded-t-[0.4rem] 
                                 w-full
@@ -782,7 +782,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.png"
+                                src="logo-guerrilhaway.webp"
                                 alt="Eixo"
                                 className="
                                 rounded-t-[0.4rem] 
@@ -910,7 +910,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.png"
+                                src="logo-guerrilhaway.webp"
                                 alt="Os 4 Temperamentos"
                                 className="
                                 rounded-t-[0.4rem] 
@@ -1058,7 +1058,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.png"
+                                src="logo-guerrilhaway.webp"
                                 alt="Território Humano"
                                 className="
                                 rounded-t-[0.4rem] 
@@ -1313,7 +1313,7 @@ export default function Home() {
           "
           >
             <img
-              src="logo-wrl.png"
+              src="logo-wrl.webp"
               alt="Italo Marsili - Logo"
               draggable="false"
             ></img>
