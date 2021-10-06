@@ -10,8 +10,14 @@ module.exports = {
         auto: 'auto',
         default: 'default',
         pointer: 'pointer',
+        wait: 'wait',
+        text: 'text',
         grab: 'grab',
         grabbing: 'grabbing',
+        move: 'move',
+        'not-allowed': 'not-allowed',
+        crosshair: 'crosshair',
+        'zoom-in': 'zoom-in'
       },
       backgroundPosition: {
         custom: 'center left -30rem',
@@ -32,9 +38,6 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]
       },
-      backgroundImage: theme => ({
-        italo: "url('/italomarsili.webp')"
-      }),
       screens: {
         mobilexs: { max: '560px' },
         tabletxs: { max: '640px' }

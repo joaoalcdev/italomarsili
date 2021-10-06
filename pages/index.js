@@ -259,29 +259,29 @@ export default function Home() {
       <section>
         <div
           className="
-        bg-no-repeat
-        bg-cover
-        bg-center
-        
-        mobilexs:bg-no-repeat
-        mobilexs:bg-cover
-        mobilexs:bg-customxs
-        
-        sm:bg-no-repeat
-        sm:bg-cover
-        sm:bg-center
+          bg-no-repeat
+          bg-cover
+          bg-center
 
-        md:bg-no-repeat
-        md:bg-cover
-        md:bg-center
+          mobilexs:bg-no-repeat
+          mobilexs:bg-cover
+          mobilexs:bg-customxs
 
-        lg:bg-no-repeat
-        lg:bg-cover
-        lg:bg-center
+          sm:bg-no-repeat
+          sm:bg-cover
+          sm:bg-center
 
-        relative
+          md:bg-no-repeat
+          md:bg-cover
+          md:bg-center
 
-        min-h-screen
+          lg:bg-no-repeat
+          lg:bg-cover
+          lg:bg-center
+
+          relative
+
+          min-h-screen
         "
         >
           <div
@@ -306,123 +306,122 @@ export default function Home() {
               priority="eager"
               quality={80}
               draggable="false"
-              className=""
             />
           </div>
 
           <div
             className="
-          min-h-screen 
+            min-h-screen 
 
-          mobilexs:flex
-          mobilexs:flex-row
-          sm:flex 
-          sm:flex-row 
-          md:flex 
-          md:flex-row 
-          lg:flex 
-          lg:flex-row 
-          flex 
-          flex-row
+            mobilexs:flex
+            mobilexs:flex-row
+            sm:flex 
+            sm:flex-row 
+            md:flex 
+            md:flex-row 
+            lg:flex 
+            lg:flex-row 
+            flex 
+            flex-row
 
-          justify-end
-          self-auto
-          w-full
+            justify-end
+            self-auto
+            w-full
 
-          mx-0
-          z-30
-          "
+            mx-0
+            z-30
+            "
           >
             <div
               className="
-            z-40
+              z-40
 
-            flex
-            self-center
-            text-left
-            
-            mobilexs:mt-0
-            mobilexs:pt-[13rem]
-            mobilexs:pr-[-32rem]
-            mobilexs:justify-end
-            mobilexs:items-end
-            
-            mt-0
-            pt-[11rem]
-            pr-0
-            pl-36
+              flex
+              self-center
+              text-left
 
-            flex-nowrap
-            justify-end
-            items-end
+              mobilexs:mt-0
+              mobilexs:pt-[13rem]
+              mobilexs:pr-[-32rem]
+              mobilexs:justify-end
+              mobilexs:items-end
 
-            sm:mt-0
-            sm:pt-[10rem]
-            sm:pr-0
-            sm:justify-end
-            sm:items-end
+              mt-0
+              pt-[11rem]
+              pr-0
+              pl-36
 
-            md:mt-0
-            md:pt-28
-            md:pr-0
-            md:justify-end
-            md:items-end	
+              flex-nowrap
+              justify-end
+              items-end
 
-            lg:mt-0
-            lg:pt-24
-            lg:pr-0
-            lg:justify-end
-            lg:items-end
-            "
+              sm:mt-0
+              sm:pt-[10rem]
+              sm:pr-0
+              sm:justify-end
+              sm:items-end
+
+              md:mt-0
+              md:pt-28
+              md:pr-0
+              md:justify-end
+              md:items-end	
+
+              lg:mt-0
+              lg:pt-24
+              lg:pr-0
+              lg:justify-end
+              lg:items-end
+              "
             >
               <div
                 className="
-              flex
-              flex-col  
-              self-auto
-              text-white
-              "
+                flex
+                flex-col  
+                self-auto
+                text-white
+                "
               >
                 <h1
                   className="
-                mb-2
-                pl-2
-                font-bold 
+                  mb-2
+                  pl-2
+                  font-bold 
 
-                mobilexs:text-4xl
-                text-[2.8rem]
-                sm:text-[3rem] 
-                md:text-[3.6rem]
-                lg:text-[3.7rem]
+                  mobilexs:text-4xl
+                  text-[2.8rem]
+                  sm:text-[3rem] 
+                  md:text-[3.6rem]
+                  lg:text-[3.7rem]
 
-                text-[#EE2860]
+                  text-[#EE2860]
 
-                selection:bg-[#ee2860]
-                selection:text-[#ffffff]
-                "
+                  selection:bg-[#ee2860]
+                  selection:text-[#ffffff]
+                  "
                 >
                   Italo Marsili{' '}
                 </h1>
 
                 <h3
                   className="
-                w-full
-                font-light
+                  w-full
+                  font-light
 
-                selection:bg-[#ffffff]
-                selection:text-[#ee2860]
+                  selection:bg-[#ffffff]
+                  selection:text-[#ee2860]
 
-                mobilexs:text-[0.65rem]
-                tabletxs:text-[0.75rem]
-                text-[0.8rem]
-                sm:text-[0.9rem]
-                md:text-[1rem]
-                lg:text-[1rem]
+                  mobilexs:text-[0.65rem]
+                  tabletxs:text-[0.75rem]
+                  text-[0.8rem]
+                  sm:text-[0.9rem]
+                  md:text-[1rem]
+                  lg:text-[1rem]
 
-                pl-3
+                  pl-3
 
-                z-20
-                "
+                  z-20
+                  "
                 >
                   Criador do <strong>Guerrilha Way®</strong>, o maior programa
                   de <br></br>
@@ -433,21 +432,21 @@ export default function Home() {
                 </h3>
                 <h4
                   className="
-                z-20
-                mt-3
-                pl-3
-                text-[#EE2860]
-                font-bold
-                
-                selection:bg-[#ffffff]
-                selection:text-[#ee2860]
-
-                text-sm
-                mobilexs:text-base
-                sm:text-base 
-                md:text-base 
-                lg:text-lg
-                "
+                  z-20
+                  mt-3
+                  pl-3
+                  text-[#EE2860]
+                  font-bold
+                  
+                  selection:bg-[#ffffff]
+                  selection:text-[#ee2860]
+    
+                  text-sm
+                  mobilexs:text-base
+                  sm:text-base 
+                  md:text-base 
+                  lg:text-lg
+                  "
                 >
                   Conheça nossos cursos:
                 </h4>
