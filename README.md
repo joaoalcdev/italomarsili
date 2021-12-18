@@ -1,13 +1,12 @@
 <p align="center">
-  <img alt="START - English Academy" src="./src/assets/images/logo-start.svg" width="160px">
+  <img alt="Italo Marsili - WRL" src="./public/logo-wrl.svg" width="160px">
 </p>
 
 <p align="center">
 </p>
 
 <h1 align="center">
-    <img alt="START - English Academy" src="./src/assets/images/cover(01).svg" />
-    <img alt="START - English Academy" src="./src/assets/images/cover(02).svg" />
+    <img alt="Italo Marsili" src="./public/cover-italo.svg" />
 </h1>
 
 <br>
@@ -16,12 +15,9 @@
 
 This project was developed with the following technologies:
 
-- [React](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [NodeJS](https://nodejs.org/en/)
+- [JavaScript](https://javascript.info/js)
 - [NextJS](https://nextjs.org/)
-- [Styled-components](https://styled-components.com/docs/api)
-- [Mailchimp API](https://mailchimp.com/developer/marketing/api/)
+- [TailwindCSS](https://tailwindui.com/documentation)
 - More other technologies...
 
 ## 🚀 How to run:
@@ -29,8 +25,8 @@ This project was developed with the following technologies:
 Clone the project and access its folder.
 
 ```bash
-$ git clone https://github.com/joaoalcdev/start-capture_page
-$ cd start-capture_page
+$ git clone https://github.com/joaoalcdev/italomarsili
+$ cd italomarsili
 ```
 
 To start it, follow the steps below:
@@ -46,7 +42,7 @@ The app is available in your browser by address -> http://localhost:3000.
 
 ## 💻 Project Desc
 
-[Start - English Academy](https://www.erikagondim.com.br/) is a project that teaches a revolutionary method for learning English.
+[Italo Marsili](https://italomarsili.vercel.app/) is a project developed with the intention of a page proposal.
 
 The project was developed by [João Alcântara](https://github.com/joaoalcdev) and prototyped by [Ygor Gondim](https://www.instagram.com/ygorgondim/).
 
@@ -54,7 +50,7 @@ The project was developed by [João Alcântara](https://github.com/joaoalcdev) a
 
 You can view the project layout through the link below:
 
-- [Layout Web](https://www.figma.com/file/9cM3HJKDH8bv6oPyYjk3Wn/Capture-Page---Design-Layout---START-%7C-English-Academy?node-id=0%3A1) 
+- [Layout Web](https://www.figma.com/file/vDVteqgJ3EDAsSmszIemd9/Italo-Marsili---Proposta?node-id=12%3A32) 
 
 Remembering that you need to have a Figma account [Figma](http://figma.com/).
 
