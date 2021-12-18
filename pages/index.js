@@ -458,7 +458,7 @@ export default function Home() {
                     
                     "
                   >
-                    {/* swiper (slider) */}
+                    {/* swiper (guerrilha way section) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
@@ -586,9 +586,9 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper (slider) */}
+                    {/* swiper (guerrilha way section) */}
 
-                    {/* swiper (slider) */}
+                    {/* swiper (menos 50T section) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
@@ -675,7 +675,7 @@ export default function Home() {
                               lg:text-[0.9rem]
                               "
                             >
-                              Guerrilha Way
+                              Menos 50T
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -713,9 +713,9 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper (slider) */}
+                    {/* swiper (menos 50T section) */}
 
-                    {/* swiper (slider) */}
+                    {/* swiper (eixo) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
@@ -802,7 +802,7 @@ export default function Home() {
                               lg:text-[0.9rem]
                               "
                             >
-                              Guerrilha Way
+                              Eixo
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -840,9 +840,9 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper (slider) */}
+                    {/* swiper (eixo) */}
 
-                    {/* swiper (slider) */}
+                    {/* swiper (Os 4 temperamentos) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
@@ -929,7 +929,7 @@ export default function Home() {
                               lg:text-[0.9rem]
                               "
                             >
-                              Guerrilha Way
+                              Os 4 Temperamentos
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -967,9 +967,9 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper (slider) */}
+                    {/* swiper (os 4 temperamentos) */}
 
-                    {/* swiper (slider) */}
+                    {/* swiper (territorio humano) */}
                     <div className="flex">
                       <SwiperSlide
                         className="
@@ -1056,7 +1056,7 @@ export default function Home() {
                               lg:text-[0.9rem]
                               "
                             >
-                              Guerrilha Way
+                              Territó Humano
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -1094,8 +1094,7 @@ export default function Home() {
                         </div>
                       </SwiperSlide>
                     </div>
-                    {/* swiper (slider) */}
-
+                    {/* swiper (territorio humano) */}
 
                     {/* swiper 06 (slider) */}
                     <div>
