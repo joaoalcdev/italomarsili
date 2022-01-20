@@ -628,7 +628,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="menos50t.svg"
+                                src="menos50t.webp"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
@@ -758,7 +758,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="eixo.svg"
+                                src="eixo.webp"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
@@ -888,7 +888,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="4temperamentos.svg"
+                                src="4temperamentos.webp"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
@@ -1018,7 +1018,7 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="territoriohumano.svg"
+                                src="territoriohumano.webp"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
