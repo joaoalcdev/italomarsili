@@ -419,7 +419,7 @@ export default function Home() {
                 <>
                   <Swiper
                     slidesPerView={3.3}
-                    spaceBetween={9}
+                    spaceBetween={8}
                     keyboard={{
                       enabled: true
                     }}
@@ -449,7 +449,7 @@ export default function Home() {
 
                     lg:flex-col
                     lg:w-[36rem]
-                    lg:h-[17rem]
+                    lg:h-[18rem]
                     
                     text-white
                     transition 
@@ -503,6 +503,7 @@ export default function Home() {
                                 className="
                                 w-full
                                 h-full
+                                rounded-t-[0.43rem]
                                 cursor-grab
                                 active:cursor-grabbing
                                 "
@@ -538,7 +539,6 @@ export default function Home() {
                               flex
                               text-white
                               font-bold
-                              pb-[0.1rem]
                               pt-2
 
                               mobilexs:text-[0.59rem]
@@ -593,6 +593,7 @@ export default function Home() {
                       <SwiperSlide
                         className="
                         pt-4
+                        ml-4
                         "
                       >
                         <div
@@ -607,9 +608,11 @@ export default function Home() {
                           active:shadow-redActive
                           hover:border-[#ff4076]
                           active:border-[#971d40]
+                          active:z-50
                           transition 
                           duration-400 
                           ease-in-out
+                          z-40
                           "
                         >
                           <div
@@ -625,11 +628,12 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.webp"
+                                src="menos50t.svg"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
                                 h-full
+                                rounded-t-[0.43rem]
                                 cursor-grab
                                 active:cursor-grabbing
                                 "
@@ -665,7 +669,6 @@ export default function Home() {
                               flex
                               text-white
                               font-bold
-                              pb-[0.1rem]
                               pt-2
 
                               mobilexs:text-[0.59rem]
@@ -720,6 +723,7 @@ export default function Home() {
                       <SwiperSlide
                         className="
                         pt-4
+                        ml-4
                         "
                       >
                         <div
@@ -734,9 +738,11 @@ export default function Home() {
                           active:shadow-redActive
                           hover:border-[#ff4076]
                           active:border-[#971d40]
+                          active:z-50
                           transition 
                           duration-400 
                           ease-in-out
+                          z-40
                           "
                         >
                           <div
@@ -752,11 +758,12 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.webp"
+                                src="eixo.svg"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
                                 h-full
+                                rounded-t-[0.43rem]
                                 cursor-grab
                                 active:cursor-grabbing
                                 "
@@ -792,7 +799,6 @@ export default function Home() {
                               flex
                               text-white
                               font-bold
-                              pb-[0.1rem]
                               pt-2
 
                               mobilexs:text-[0.59rem]
@@ -847,6 +853,7 @@ export default function Home() {
                       <SwiperSlide
                         className="
                         pt-4
+                        ml-4
                         "
                       >
                         <div
@@ -861,9 +868,11 @@ export default function Home() {
                           active:shadow-redActive
                           hover:border-[#ff4076]
                           active:border-[#971d40]
+                          active:z-50
                           transition 
                           duration-400 
                           ease-in-out
+                          z-40
                           "
                         >
                           <div
@@ -879,11 +888,12 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.webp"
+                                src="4temperamentos.svg"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
                                 h-full
+                                rounded-t-[0.43rem]
                                 cursor-grab
                                 active:cursor-grabbing
                                 "
@@ -919,7 +929,6 @@ export default function Home() {
                               flex
                               text-white
                               font-bold
-                              pb-[0.1rem]
                               pt-2
 
                               mobilexs:text-[0.59rem]
@@ -929,7 +938,7 @@ export default function Home() {
                               lg:text-[0.9rem]
                               "
                             >
-                              Os 4 Temperamentos
+                              4 Temperamentos
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
@@ -974,6 +983,7 @@ export default function Home() {
                       <SwiperSlide
                         className="
                         pt-4
+                        ml-4
                         "
                       >
                         <div
@@ -988,9 +998,11 @@ export default function Home() {
                           active:shadow-redActive
                           hover:border-[#ff4076]
                           active:border-[#971d40]
+                          active:z-50
                           transition 
                           duration-400 
                           ease-in-out
+                          z-40
                           "
                         >
                           <div
@@ -1006,11 +1018,12 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                src="logo-guerrilhaway.webp"
+                                src="territoriohumano.svg"
                                 alt="Guerrilha Way"
                                 className="
                                 w-full
                                 h-full
+                                rounded-t-[0.43rem]
                                 cursor-grab
                                 active:cursor-grabbing
                                 "
@@ -1046,7 +1059,6 @@ export default function Home() {
                               flex
                               text-white
                               font-bold
-                              pb-[0.1rem]
                               pt-2
 
                               mobilexs:text-[0.59rem]
@@ -1056,7 +1068,7 @@ export default function Home() {
                               lg:text-[0.9rem]
                               "
                             >
-                              Territó Humano
+                              Território Humano
                             </h4>
                             <a
                               href="https://italomarsili.vercel.app"
