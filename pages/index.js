@@ -513,6 +513,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
+                                width="100"
+                                height="100"
                                 src="logo-guerrilhaway.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -643,6 +645,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
+                                width="100"
+                                height="100"
                                 src="menos50t.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -773,6 +777,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
+                                width="100"
+                                height="100"
                                 src="eixo.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -903,6 +909,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
+                                width="100"
+                                height="100"
                                 src="4temperamentos.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -1033,6 +1041,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
+                                width="100"
+                                height="100"
                                 src="territoriohumano.webp"
                                 alt="Guerrilha Way"
                                 className="
