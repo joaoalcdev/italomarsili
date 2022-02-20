@@ -246,21 +246,6 @@ export default function Home() {
           {/*  Manifest  */}
           <link rel="manifest" href="site.webmanifest"></link>
           {/* CSS imports  */}
-          <link
-            rel="stylesheet"
-            href="https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.woff2"
-            media="all"
-          ></link>
-          <link
-            rel="stylesheet"
-            href="https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.woff2"
-            media="all"
-          ></link>
-          <link
-            rel="stylesheet"
-            href="https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.woff"
-            media="all"
-          ></link>
           {/* <link
             rel="stylesheet"
             href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
