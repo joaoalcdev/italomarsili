@@ -513,8 +513,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                width="100"
-                                height="100"
+                                width="50"
+                                height="50"
                                 src="logo-guerrilhaway.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -645,8 +645,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                width="100"
-                                height="100"
+                                width="50"
+                                height="50"
                                 src="menos50t.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -777,8 +777,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                width="100"
-                                height="100"
+                                width="50"
+                                height="50"
                                 src="eixo.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -909,8 +909,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                width="100"
-                                height="100"
+                                width="50"
+                                height="50"
                                 src="4temperamentos.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -1041,8 +1041,8 @@ export default function Home() {
                               className="outline-none"
                             >
                               <img
-                                width="100"
-                                height="100"
+                                width="50"
+                                height="50"
                                 src="territoriohumano.webp"
                                 alt="Guerrilha Way"
                                 className="
@@ -1271,6 +1271,8 @@ export default function Home() {
           "
           >
             <img
+              width="50"
+              height="50"
               src="logo-wrl.webp"
               alt="Italo Marsili - Logo"
               draggable="false"
