@@ -1271,8 +1271,8 @@ export default function Home() {
           "
           >
             <img
-              width="50"
-              height="50"
+              width="200"
+              height="200"
               src="logo-wrl.webp"
               alt="Italo Marsili - Logo"
               draggable="false"
